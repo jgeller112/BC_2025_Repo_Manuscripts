@@ -14,19 +14,22 @@ website:
         contents:
           - href: index.qmd
             text: Home
-          - href: slides/workshop-materials.qmd
-            text: Materials
-          - href: slides/introduction.qmd
-            text: Introduction
-          - href: slides/getting-started.qmd
-            text: Getting Started
-          - href: slides/markdown-syntax.qmd
-            text: Markdown
-          - href: slides/code-chunks.qmd
-            text: Analysis
-          - href: slides/rendering.qmd
-            text: Rendering
-      
+          - section: "Slides"
+            contents:
+              - href: slides/workshop-materials.qmd
+                text: Materials
+              - section: "Introduction"  # Introduction as a parent
+                contents:
+                  - href: slides/introduction.qmd
+                    text: Overview
+                  - href: slides/getting-started.qmd
+                    text: Getting Started  # Nested under Introduction
+              - href: slides/markdown-syntax.qmd
+                text: Markdown
+              - href: slides/code-chunks.qmd
+                text: Analysis
+              - href: slides/rendering.qmd
+                text: Rendering
 format:
   html:
     theme: superhero
