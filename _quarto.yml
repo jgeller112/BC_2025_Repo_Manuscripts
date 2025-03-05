@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Reproducible Manuscripts in R Workshop"
+  sidebar:
+    background: "purple"
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Workshop"
+        contents:
+          - href: index.qmd
+            text: Home
+          - href: slides/workshop-materials.qmd
+            text: Materials
+          - href: slides/introduction.qmd
+            text: Introduction
+          - href: slides/getting-started.qmd
+            text: Getting Started
+          - href: slides/markdown-syntax.qmd
+            text: Markdown
+          - href: slides/code-chunks.qmd
+            text: Analysis
+          - href: slides/rendering.qmd
+            text: Rendering
+      
+format:
+  html:
+    theme: superhero
+    css: styles.css
+    toc: true
+    fontsize: "18pt"
+
+editor: visual
+

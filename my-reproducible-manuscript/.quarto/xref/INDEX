@@ -1,0 +1,21 @@
+{
+  "my_reprod.qmd": {
+    "my_reprod.embed.ipynb": "0c0f453e",
+    "my_reprod.out.ipynb": "b99bc1b2",
+    "my_reprod-preview.html": "6e264f0e"
+  },
+  "LICENSE.md": {
+    "LICENSE.out.ipynb": "7fbd0bfe",
+    "LICENSE-preview.html": "07b84d5b"
+  },
+  "docs/my-reproducible-manuscript.ipynb": {
+    "my-reproducible-manuscript.out.ipynb": "9e620d9e",
+    "my-reproducible-manuscript-preview.html": "efa52c8b"
+  },
+  "index.qmd": {
+    "index.embed.ipynb": "6b55803e",
+    "index.out.ipynb": "474e4ab7",
+    "index-preview.html": "31d9d620",
+    "index.html": "02e78cf2"
+  }
+}
