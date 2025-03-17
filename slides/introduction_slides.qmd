@@ -3,7 +3,7 @@ title: "Reproducible Manuscripts in R "
 subtitle: "Princeton University"
 author: "Jason Geller, PH.D.(he/him)"
 date: 'Updated:`r Sys.Date()`'
-footer: "APS 2024"
+footer: "BC 2025"
 format:
   revealjs:
     theme: night
@@ -11,7 +11,7 @@ format:
     slide-number: true
     navigation-mode: linear
     controls: true
-    incremental: false
+    incremental: true
     code-overflow: wrap
     fontsize: "30pt"
     fig-width: 12
@@ -19,6 +19,60 @@ format:
 ---
 
 # Introduction
+
+## What is reproduciblity?
+
+```{=html}
+<table style="border-collapse: collapse; color: white; text-align: center; width: 100%; border: 2px solid white;">
+    <tr style="background-color: #005f5f; border: 2px solid white;">
+        <th>Analysis / Data</th>
+        <th>Same</th>
+        <th>Different</th>
+    </tr>
+    <tr>
+        <th>Same Analysis</th>
+        <td><b>Reproducible</b></td>
+        <td><b>Replicable</b></td>
+    </tr>
+    <tr>
+        <th>Different Analysis</th>
+        <td><b>Robust</b></td>
+        <td><b>Generalisable</b></td>
+    </tr>
+</table>
+```
+
+## What is open science?
+
+::::: columns
+::: {.column width="50%"}
+<br>
+
+-   Openly sharing your research
+
+    -   Open publications
+
+    -   Open experimental protocols
+
+    -   Open software
+
+    -   Open data
+:::
+
+::: {.column width="50%"}
+![](images/openscience-engNY.jpg){fig-align="center" width="959"}
+:::
+:::::
+
+## Open Science + Reproducibility
+
+-   Today we are going to focus on reproducible manuscripts
+
+    -   All text
+
+    -   All code
+
+    -   All analyses
 
 ## Packages
 
@@ -31,10 +85,12 @@ library(tidyverse) # data wrangling
 library(papaja) # apa writing template
 ```
 
+## Packages
+
 ```{r}
 #| eval: false
 #| echo:  true
-#| 
+
 install.packages('tinytex') # for use with pdf 
 tinytex::install_tinytex()
 # to uninstall TinyTeX, run tinytex::uninstall_tinytex() 
@@ -46,7 +102,7 @@ tinytex::install_tinytex()
 
 ## Word
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/clipboard-1310471532.png){width="931"}
 :::
@@ -54,7 +110,7 @@ tinytex::install_tinytex()
 ::: {.column width="50%"}
 ![](img/word_document_surface.png){fig-align="center" width="895"}
 :::
-:::
+:::::
 
 ## Inside
 
@@ -62,8 +118,8 @@ tinytex::install_tinytex()
 
 ## Word issues
 
-::: incremental
-::: columns
+:::::: incremental
+::::: columns
 ::: {.column width="50%"}
 -   A .docx file is a compressed folder with lots of files
     -   Your text is buried in with a lot of formatting information
@@ -80,8 +136,8 @@ tinytex::install_tinytex()
 -   What do I share?
     -   Lack of transparency
 :::
-:::
-:::
+:::::
+::::::
 
 ## What do we want?
 
@@ -99,17 +155,17 @@ tinytex::install_tinytex()
 
 ## Hello Quarto!
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Next generation publishing system.
--   Unify and extends the R Markdown ecosystem.
+-   Unify and extends the R Markdown ecosystem.
 -   **Develop** and **Switch** formats without hassle.
 :::
 
 ::: {.column width="50%"}
 ![](assets/wasm-images/logo-quarto.png){fig-alt="The Quarto hexagon logo." fig-align="center"}
 :::
-:::
+:::::
 
 ## Big universe
 
@@ -133,7 +189,7 @@ Quarto handles literate programming by using a series of programs:
 
 ## Source vs. Visual Mode
 
-::: columns
+::::: columns
 ::: {.column width="45%"}
 ![Source Editing Mode](assets/quarto-images/rstudio-qmd-source-mode.png){fig-alt="Figure showing what a Quarto document looks like in Source Editing Mode."}
 :::
@@ -141,7 +197,7 @@ Quarto handles literate programming by using a series of programs:
 ::: {.column width="45%"}
 ![Visual Editing Mode](assets/quarto-images/rstudio-qmd-visual-mode.png){fig-alt="Figure showing what a Quarto document looks like in Visual Editing Mode."}
 :::
-:::
+:::::
 
 ::: footer
 Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This mode is similar to Word.
@@ -197,7 +253,7 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
 ## Create a Quarto Document
 
-::: columns
+::::: columns
 ::: {.column width="45%"}
 In the top left, click the White Plus and select "Quarto Document..."
 
@@ -209,7 +265,7 @@ In the new prompt, enter a title, author name, and press "Create"
 
 ![New Document Options](assets/quarto-images/rstudio-qmd-new-document-prompt.png){fig-alt="New quarto document wizard allowing a title and author information to be set."}
 :::
-:::
+:::::
 
 ## Getting started
 
