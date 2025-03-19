@@ -9,13 +9,11 @@ format:
     code-overflow: wrap
     code-line-numbers: false
     incremental: true
-    width: 1920
-    height: 1080
-    fontsize: "40pt"
-    code-max-height: "400px"  # ✅ Reduce code block font size
+    fontsize: "28pt"
+    css: styles.css
 ---
 
-# What's Next?
+# What's Next? {background-color="#FFCD00"}
 
 ## Try this
 
