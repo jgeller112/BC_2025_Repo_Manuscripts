@@ -23,6 +23,8 @@ format:
 
 ## `Renv`
 
+![](images/renv.svg){fig-align="center"}
+
 -   Most popular packages for reproducibility, and very easy to use:
 
     -   Open an R session in the folder containing the scripts
@@ -37,11 +39,15 @@ format:
 
 ## Docker
 
+::::: columns
+::: {.column width="50%"}
 -   Docker is a containerisation tool that you install on your computer
 
 -   Docker allows you to build *images* and run *containers* (a container is an instance of an image)
+:::
 
-<!-- -->
+::: {.column width="50%"}
+![](images/docker.png){fig-align="center"}
 
 -   Docker images:
 
@@ -50,6 +56,8 @@ format:
     2.  Are immutable (cannot be changed at run-time)
 
     3.  Can be shared on- and offline
+:::
+:::::
 
 ## Docker
 
@@ -83,6 +91,12 @@ format:
 
 ## Nix/`Rix`
 
+::::: columns
+::: {.column width="50%"}
+![](images/example_rix.png){fig-align="center" width="912"}
+:::
+
+::: {.column width="50%"}
 -   `{rix}` ([website](https://docs.ropensci.org/rix/)) makes writing Nix expression easy!
 
 -   Simply use the provided `rix()` function:
@@ -95,11 +109,6 @@ format:
     install.packages("rix", repos = c(
       "https://ropensci.r-universe.dev"
     ))
-    ```
-
-    ```{r}
-    #| echo: true
-    #| eval: false 
 
     library(rix)
 
@@ -111,6 +120,8 @@ format:
         ide = "code", # what ide you want to use rstudio/positron/vscode
         project_path = ".") # project path
     ```
+:::
+:::::
 
 ## Nix/`Rix`
 
