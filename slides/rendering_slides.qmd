@@ -51,7 +51,6 @@ quarto render my-reproducible-manuscript.qmd # defaults to html
 quarto render my-reproducible-manuscript.qmd --to pdf
 ```
 
-
 ## Render Options
 
 Render as an **HTML** document
@@ -83,6 +82,7 @@ author: "JJB + Course"
 format: docx
 ---
 ```
+
 ## Multi-format Render Options
 
 Render one Quarto document to many output options like **HTML**, **Jupyter Notebook**, **PDF**, and **Word Document**.
@@ -176,44 +176,44 @@ countdown(minutes = 10,
 
 ## Sharing Work
 
-- Once you are satisfied with the Quarto document, it's time to publish your work!
+-   Once you are satisfied with the Quarto document, it's time to publish your work!
 
-- The publishing step is important as the documents need to be viewed under the guise of a server
+-   The publishing step is important as the documents need to be viewed under the guise of a server
 
-- There are multiple options for publishing with Quarto, and we'll present two of them
+-   There are multiple options for publishing with Quarto, and we'll present two of them
 
 ## Publish Options
 
 ::: panel-tabset
 #### GitHub Pages
 
-- To make your Quarto document accessible on [GitHub Pages via Quarto](https://quarto.org/docs/publishing/github-pages.html), use the following command in your terminal:
+-   To make your Quarto document accessible on [GitHub Pages via Quarto](https://quarto.org/docs/publishing/github-pages.html), use the following command in your terminal:
 
-```sh
+``` sh
 quarto publish gh-pages
 ```
 
-- This option is great if you want to share your document through a GitHub Pages website.
+-   This option is great if you want to share your document through a GitHub Pages website.
 
 #### Quarto Pub
 
-- Alternatively, you can publish your Quarto document on [Quarto Pub via Quarto](https://quarto.org/docs/publishing/quarto-pub.html). Use the following command in your terminal:
+-   Alternatively, you can publish your Quarto document on [Quarto Pub via Quarto](https://quarto.org/docs/publishing/quarto-pub.html). Use the following command in your terminal:
 
-```sh
+``` sh
 quarto publish quarto-pub
 ```
-OR: 
 
-- You can find the blue Publishing icon in the following locations:
+OR:
 
-  - The upper right of the file editor
+-   You can find the blue Publishing icon in the following locations:
 
-  - The document viewer when viewing a document
+    -   The upper right of the file editor
 
-  - The embedded viewer when running a Shiny application
+    -   The document viewer when viewing a document
 
-  - The Plots pane
-    - Click on icon
+    -   The embedded viewer when running a Shiny application
+
+    -   The Plots pane
+
+        -   Click on icon
 :::
-
-

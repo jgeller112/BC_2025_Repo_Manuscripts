@@ -6,9 +6,11 @@ format:
     slide-number: true
     navigation-mode: linear
     controls: true
+    auto-stretch: false 
     code-overflow: wrap
     incremental: true
-    fontsize: "28pt"
+    css: styles.css
+    fontsize: "25pt"
 ---
 
 # Code Chunks: Text + Code + Output {background-color="#FFCD00"}
@@ -42,7 +44,7 @@ format:
 
 ## Anatomy of a Code Chunk
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 1.  On each end of the code chunk: 3 *backticks*: ```` ``` ```` \*\*
 2.  Curly brackets: *engine*: `{r}` or `{python}` \*\*
@@ -69,7 +71,7 @@ distinct_cyl = mtcars.drop_duplicates(subset=['cyl'])
 ```
 ````
 :::
-:::
+:::::
 
 \*\* *not needed in a code cell in a Jupyter notebook!*
 
@@ -79,18 +81,18 @@ Useful [code chunk options](https://quarto.org/docs/computations/execution-optio
 
 ## Customize Code Execution Options {.smaller}
 
-| Option       | Description                                                                |
-|----------------------|--------------------------------------------------|
-| `eval`       | Evaluate the code chunk.                                                   |
-| `echo`       | Include the source code in output                                          |
-| `output`     | Include code output results (`true`, `false`, or `asis`)                   |
-| `warning`    | Include warnings in the output.                                            |
-| `error`      | Include errors in the output (continues execution if error present).       |
-| `include`    | Catch all for preventing any output (code or results) from being included. |
-| `label`      | Please make sure to label your code chunks! It helps with debugging.       |
-| `fig-cap`    |  caption your figure                                                       |
-| `fig-width`  |  width of the figure                                                       |
-| `fig-height` | height of the figure                                                       |
+| Option | Description |
+|----------------------|-------------------------------------------------|
+| `eval` | `Evaluate the code chunk.` |
+| `echo` | `Include the source code in output` |
+| `output` | \`Include code output results (`true`, `false`, or `asis`)\` |
+| `warning` | `Include warnings in the output.`\` |
+| `error` | `Include errors in the output (continues execution if error present).` |
+| `include` | `Catch all for preventing any output (code or results) from being included.` |
+| `label` | `Please make sure to label your code chunks! It helps with debugging.` |
+| `fig-cap` | `caption your figure` |
+| `fig-width` | `width of the figure` |
+| `fig-height` | `height of the figure` |
 
 ## Code Chunk Options
 
@@ -124,12 +126,11 @@ Option 3: Shortcuts:
 
 -   **RStudio**: *Ctrl+Alt+I*
 
-
 ## Demo: echo option
 
 `echo` hides code, but shows results.
 
-::: columns
+::::: columns
 ::: {.column width="45%"}
 **Code**
 
@@ -169,13 +170,13 @@ x = 1:10; y = 11:20
 plot(x, y)
 ```
 :::
-:::
+:::::
 
 ## Demo: eval option
 
 `eval` shows code, but does not create results.
 
-::: columns
+::::: columns
 ::: {.column width="45%"}
 **Code**
 
@@ -215,8 +216,7 @@ x = 1:10; y = 11:20
 plot(x, y)
 ```
 :::
-:::
-
+:::::
 
 ## Exercise
 
@@ -245,7 +245,6 @@ Why?
 -   minimizes errors: no manual copy-pasting results
 -   automatic updating when data or code changes
 
-
 ## Inline code
 
 Enclose the *R* expression using `` `r ` ``.
@@ -261,6 +260,7 @@ There are &#96;r nrow(cars)&#96; observations in our data.
 </pre>
 </div>
 ```
+
 **Output:**
 
 ::: border
@@ -293,12 +293,12 @@ the _standard deviation_ is &#96;r x_sd&#96;.
 </pre>
 </div>
 ```
+
 **Output:**
 
 ::: border
 The mean of **x** is 5.5 and the *standard deviation* is 3.02765.
 :::
-
 
 ## Inline code: how?
 
@@ -354,7 +354,7 @@ Why separate scripts from the manuscript?
 
 . . .
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 **R:**
 
@@ -386,7 +386,7 @@ followed by
 from your-script import function
 ```
 :::
-:::
+:::::
 
 ## Exercise
 

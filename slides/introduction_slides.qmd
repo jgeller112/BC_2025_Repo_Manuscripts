@@ -1,6 +1,6 @@
 ---
 title: "Reproducible Manuscripts in R "
-subtitle: "Princeton University"
+subtitle: "Boston College"
 author: "Jason Geller, PH.D.(he/him)"
 date: 'Updated:`r Sys.Date()`'
 footer: "BC 2025"
@@ -13,7 +13,8 @@ format:
     controls: true
     incremental: true
     code-overflow: wrap
-    fontsize: "30pt"
+    fontsize: "28pt"
+    css: styles.css
     fig-width: 12
     fig-height: 14
 ---

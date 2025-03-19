@@ -12,6 +12,7 @@ format:
     width: 1920
     height: 1080
     fontsize: "40pt"
+    code-max-height: "400px"  # ✅ Reduce code block font size
 ---
 
 # What's Next?
@@ -90,10 +91,22 @@ format:
 
     ```{r}
     #| eval: false 
+    #| echo: true
+
+    # download latest version
+    install.packages("rix", repos = c(
+      "https://ropensci.r-universe.dev"
+    ))
+    ```
+
+    ```{r}
+    #| echo: true
+    #| eval: false 
+
     library(rix)
 
     rix(date = "2025-01-27", # date or r version wanted
-        r_pkgs = c("dplyr", "ggplot2"), # r packages
+        r_pkgs = c("brms", "palmerpenguins"), # r packages
         system_pkgs = NULL, # system dependencies
         git_pkgs = NULL, # github packages
         tex_pkgs = NULL, # latex packages
@@ -110,6 +123,27 @@ format:
 -   Optionally: an IDE (Rstudio, Radian, VS Code or “other”)
 
 -   Work interactively in an (relavitely) isolated, project-specific and reproducible environment!
+
+## Nix/`Rix`
+
+```{r}
+#| code-line-number: "3:9"
+#| echo: true
+#| eval: false 
+
+rix(date = "2025-03-10", # date or r version wanted
+    r_pkgs = c("brms", "palmerpenguins"), # r packages
+    system_pkgs =  c("quarto", "git", "cmdstan"), # system dependencies
+    git_pkgs = list(
+      list(
+        package_name = "cmdstanr",
+        repo_url = "https://github.com/stan-dev/cmdstanr",
+        commit = "12211d4b35605d416d6e22078db81cfe9e5a64f5")
+      ), # github packages
+    tex_pkgs = NULL, # latex packages
+    ide = "code", # what ide you want to use rstudio/positron/vscode
+    project_path = ".") # project path
+```
 
 ## Nix/`Rix`
 
