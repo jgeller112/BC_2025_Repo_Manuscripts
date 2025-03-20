@@ -23,8 +23,6 @@ format:
 
 ## `Renv`
 
-![](images/renv.svg){fig-align="center"}
-
 -   Most popular packages for reproducibility, and very easy to use:
 
     -   Open an R session in the folder containing the scripts
@@ -39,6 +37,8 @@ format:
 
 ## Docker
 
+![](images/docker.png){fig-align="center"}
+
 ::::: columns
 ::: {.column width="50%"}
 -   Docker is a containerisation tool that you install on your computer
@@ -47,7 +47,6 @@ format:
 :::
 
 ::: {.column width="50%"}
-![](images/docker.png){fig-align="center"}
 
 -   Docker images:
 
@@ -69,7 +68,11 @@ format:
 
 -   Not actually dealing with reproducibility per se, we’re “abusing” Docker in a way
 
--   Can use Code Ocean instead
+    ::: callout-tip
+    ![](images/clipboard-123047757.png){width="77"}
+
+    -   Can use Code Ocean instead
+    :::
 
 ## Nix/`Rix`
 
