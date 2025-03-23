@@ -47,7 +47,6 @@ format:
 :::
 
 ::: {.column width="50%"}
-
 -   Docker images:
 
     1.  Contain all the software and code needed for your project

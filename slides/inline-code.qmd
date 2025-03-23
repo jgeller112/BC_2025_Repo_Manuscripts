@@ -5,6 +5,7 @@
 ```{=html}
 <iframe width="650" height="500" src="slides/analysis.html#/inline-code"></iframe>
 ```
+
 ## Exercise
 
 Take a couple of minutes to play around with the possibilities of *inline code*:

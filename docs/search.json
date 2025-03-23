@@ -221,7 +221,7 @@
     "href": "slides/introduction_slides.html#what-is-reproduciblity",
     "title": "Reproducible Manuscripts in R",
     "section": "What is reproduciblity?",
-    "text": "What is reproduciblity?\n\n\n\nAnalysis / Data\nSame\nDifferent\n\n\nSame Analysis\nReproducible\nReplicable\n\n\nDifferent Analysis\nRobust\nGeneralisable"
+    "text": "What is reproduciblity?\n\n\n\nAnalysis / Data\nSame\nDifferent\n\n\nSame Analysis\nReproducible\nReplicable\n\n\nDifferent Analysis\nRobust\nGeneralisable\n\n\n\n–\n\nIf I take the same analysis pipeline and apply it the same dataset, I will get the same results\n\nThis is reproduciblity"
   },
   {
     "objectID": "slides/introduction_slides.html#what-is-open-science",
@@ -333,7 +333,7 @@
     "href": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",
     "title": "Reproducible Manuscripts in R",
     "section": "In the Wild: Data Science Gone Wrong",
-    "text": "In the Wild: Data Science Gone Wrong\n\nRetraction Watch by Adam Marcus, Ivan Oransky, and Alison McCook Monitors for authors retracting their paper from a journal.\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff.\n\nThe error was found by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin.\nThey published a critique highlighting the error.\nHerndon appeared on the Colbert Report to discuss their findings"
+    "text": "In the Wild: Data Science Gone Wrong\n\n\n\nRetraction Watch by Adam Marcus, Ivan Oransky, and Alison McCook Monitors for authors retracting their paper from a journal.\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff.\n\nThe error was found by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin."
   },
   {
     "objectID": "slides/introduction_slides.html#advantages-2",
@@ -464,14 +464,14 @@
     "href": "slides/whats_next_slides.html#docker",
     "title": "Reproducible Manuscripts in R Workshop",
     "section": "Docker",
-    "text": "Docker\n\nDocker is a containerisation tool that you install on your computer\nDocker allows you to build images and run containers (a container is an instance of an image)\n\n\n\nDocker images:\n\nContain all the software and code needed for your project\nAre immutable (cannot be changed at run-time)\nCan be shared on- and offline"
+    "text": "Docker\n\n\n\n\nDocker is a containerisation tool that you install on your computer\nDocker allows you to build images and run containers (a container is an instance of an image)\n\n\n\nDocker images:\n\nContain all the software and code needed for your project\nAre immutable (cannot be changed at run-time)\nCan be shared on- and offline"
   },
   {
     "objectID": "slides/whats_next_slides.html#docker-1",
     "href": "slides/whats_next_slides.html#docker-1",
     "title": "Reproducible Manuscripts in R Workshop",
     "section": "Docker",
-    "text": "Docker\n\nDocker is very useful and widely used\nBut the entry cost is high (familiarity with Linux is recommended)\nSingle point of failure (what happens if Docker gets bought, abandoned, etc? quite unlikely though)\nNot actually dealing with reproducibility per se, we’re “abusing” Docker in a way\nCan use Code Ocean instead"
+    "text": "Docker\n\nDocker is very useful and widely used\nBut the entry cost is high (familiarity with Linux is recommended)\nSingle point of failure (what happens if Docker gets bought, abandoned, etc? quite unlikely though)\nNot actually dealing with reproducibility per se, we’re “abusing” Docker in a way\n\n\n\n\n\n\nTip\n\n\n\n\nCan use Code Ocean instead"
   },
   {
     "objectID": "slides/whats_next_slides.html#nixrix",
@@ -492,7 +492,7 @@
     "href": "slides/whats_next_slides.html#nixrix-2",
     "title": "Reproducible Manuscripts in R Workshop",
     "section": "Nix/Rix",
-    "text": "Nix/Rix\n\n{rix} (website) makes writing Nix expression easy!\nSimply use the provided rix() function:\n\n# download latest version\ninstall.packages(\"rix\", repos = c(\n  \"https://ropensci.r-universe.dev\"\n))\n\n\nlibrary(rix)\n\nrix(date = \"2025-01-27\", # date or r version wanted\n    r_pkgs = c(\"brms\", \"palmerpenguins\"), # r packages\n    system_pkgs = NULL, # system dependencies\n    git_pkgs = NULL, # github packages\n    tex_pkgs = NULL, # latex packages\n    ide = \"code\", # what ide you want to use rstudio/positron/vscode\n    project_path = \".\") # project path"
+    "text": "Nix/Rix\n\n\n\n\n\n\n\n\n\n{rix} (website) makes writing Nix expression easy!\nSimply use the provided rix() function:\n\n# download latest version\ninstall.packages(\"rix\", repos = c(\n  \"https://ropensci.r-universe.dev\"\n))\n\nlibrary(rix)\n\nrix(date = \"2025-01-27\", # date or r version wanted\n    r_pkgs = c(\"brms\", \"palmerpenguins\"), # r packages\n    system_pkgs = NULL, # system dependencies\n    git_pkgs = NULL, # github packages\n    tex_pkgs = NULL, # latex packages\n    ide = \"code\", # what ide you want to use rstudio/positron/vscode\n    project_path = \".\") # project path"
   },
   {
     "objectID": "slides/whats_next_slides.html#nixrix-3",
