@@ -5,7 +5,7 @@ project:
 website:
   title: "Reproducible Manuscripts in R Workshop"
   sidebar:
-    background: "purple"
+    background: "maroon"
     style: "docked"
     search: true
     collapse-level: 1
@@ -34,9 +34,9 @@ website:
                 text: What's next?
 format:
   html:
-    theme: superhero
+    theme: sketchy
     toc: true
-    css: styles.css
+    css: styles_bc.css
     fontsize: "18pt"
 
 editor: visual

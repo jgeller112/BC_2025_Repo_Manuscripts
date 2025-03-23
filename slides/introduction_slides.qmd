@@ -43,6 +43,12 @@ format:
 </table>
 ```
 
+--
+
+-   If I take the same analysis pipeline and apply it the same dataset, I will get the same results
+
+    -   This is reproduciblity
+
 ## What is open science?
 
 ::::: columns
@@ -61,6 +67,8 @@ format:
 :::
 
 ::: {.column width="50%"}
+<br>
+
 ![](images/openscience-engNY.jpg){fig-align="center" width="959"}
 :::
 :::::
@@ -172,7 +180,7 @@ tinytex::install_tinytex()
 
 -   RMarkdown for EVERYONE
 
-![](img/horst_quarto_schematic.png){fig-align="center"}
+![![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAUCAYAAACnOeyiAAAAXklEQVR4XmNgAIL///8zMYSGhjIDGYIMIiIMvECGMwMDN4M4kFEDUqIIZKwDMdSBjAsghj6Q8QPEMAAy/lOBoQekv4AYKkDGfgZeXl4RICOLQUtLiw3IUAJJMQIZ7AC2tU2tJWCy/wAAAABJRU5ErkJggg==){alt=""}](img/horst_quarto_schematic.png){fig-align="center"}
 
 ## What is a Quarto?
 
@@ -212,13 +220,19 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
 ## In the Wild: Data Science Gone Wrong
 
+::::: columns
+::: {.column width="50%"}
 -   [Retraction Watch](https://retractionwatch.com/) by Adam Marcus, Ivan Oransky, and Alison McCook Monitors for authors retracting their paper from a journal.
 
 -   One such case of a paper being retracted due to an Excel error was the [Growth in a Time of Debt](https://www.nber.org/papers/w15639) by Reinhart & Rogoff.
 
     -   The error was found by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin.
-    -   They published a [critique](https://www.peri.umass.edu/publication/item/526-does-high-public-debt-consistently-stifle-economic-growth-a-critique-of-reinhart-and-rogo-ff) highlighting the error.
-    -   Herndon appeared on the [Colbert Report](http://www.cc.com/video-clips/kbgnf0/the-colbert-report-austerity-s-spreadsheet-error---thomas-herndon) to discuss their findings
+:::
+
+::: {.column width="50%"}
+![](images/excel_error.jpg){fig-align="center"}
+:::
+:::::
 
 ## Advantages
 
