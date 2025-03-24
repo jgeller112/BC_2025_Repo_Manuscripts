@@ -214,14 +214,14 @@
     "href": "slides/writing_slides.html#exercise-1",
     "title": "Reproducible Manuscripts in R Workshop",
     "section": "Exercise",
-    "text": "Exercise\n\nAdd the csl to your YAML and include the apa7.csl file"
+    "text": "Exercise\n\nAdd the csl to your YAML and include the apa7.csl file\nRender your document\n\n\n\n\n−+\n02:00"
   },
   {
     "objectID": "slides/introduction_slides.html#what-is-reproduciblity",
     "href": "slides/introduction_slides.html#what-is-reproduciblity",
     "title": "Reproducible Manuscripts in R",
     "section": "What is reproduciblity?",
-    "text": "What is reproduciblity?\n\n\n\nAnalysis / Data\nSame\nDifferent\n\n\nSame Analysis\nReproducible\nReplicable\n\n\nDifferent Analysis\nRobust\nGeneralisable\n\n\n\n–\n\nIf I take the same analysis pipeline and apply it the same dataset, I will get the same results\n\nThis is reproduciblity"
+    "text": "What is reproduciblity?\n\n\n\nAnalysis / Data\nSame\nDifferent\n\n\nSame Analysis\nReproducible\nReplicable\n\n\nDifferent Analysis\nRobust\nGeneralisable\n\n\n\n\nIf I take the same analysis pipeline and apply it the same dataset, I will get the same results\n\nThis is reproduciblity"
   },
   {
     "objectID": "slides/introduction_slides.html#what-is-open-science",
@@ -242,7 +242,7 @@
     "href": "slides/introduction_slides.html#packages",
     "title": "Reproducible Manuscripts in R",
     "section": "Packages",
-    "text": "Packages\n\nlibrary(palmerpenguins) # penguins\nlibrary(quarto) # qmd \nlibrary(rmarkdown) # markdown\nlibrary(tidyverse) # data wrangling\nlibrary(papaja) # apa writing template"
+    "text": "Packages\n\nlibrary(palmerpenguins) # penguins\nlibrary(quarto) # qmd \nlibrary(rmarkdown) # markdown\nlibrary(tidyverse) # data wrangling"
   },
   {
     "objectID": "slides/introduction_slides.html#packages-1",
@@ -450,7 +450,7 @@
     "href": "slides/whats_next_slides.html#renv",
     "title": "Reproducible Manuscripts in R Workshop",
     "section": "Renv",
-    "text": "Renv\n\nMost popular packages for reproducibility, and very easy to use:\n\nOpen an R session in the folder containing the scripts\nRun renv::init() and check the folder for renv.lock"
+    "text": "Renv\n\n\nMost popular packages for reproducibility, and very easy to use:\n\nOpen an R session in the folder containing the scripts\nRun renv::init() and check the folder for renv.lock"
   },
   {
     "objectID": "slides/whats_next_slides.html#renv-1",

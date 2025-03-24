@@ -6,7 +6,8 @@ format:
     slide-number: true
     navigation-mode: linear
     controls: true
-    fontsize: "30pt"
+    css: styles.css
+    fontsize: "24pt"
 ---
 
 # Rendering {background-color="#FFCD00"}
@@ -169,8 +170,6 @@ library(countdown)
 countdown(minutes = 10,
           color_background = "#FFCD00")
 ```
-
-# Publishing
 
 # Publishing
 

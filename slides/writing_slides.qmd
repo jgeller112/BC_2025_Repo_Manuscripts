@@ -488,11 +488,10 @@ countdown(minutes = 10,
 
 -   Add the `csl` to your YAML and include the apa7.csl file
 
-------------------------------------------------------------------------
-
-csl: apa7.csl
-
-------------------------------------------------------------------------
+    ```{r}
+    #| eval: false
+    csl: apa7.csl
+    ```
 
 -   Render your document
 

@@ -43,8 +43,6 @@ format:
 </table>
 ```
 
---
-
 -   If I take the same analysis pipeline and apply it the same dataset, I will get the same results
 
     -   This is reproduciblity
@@ -91,7 +89,6 @@ library(palmerpenguins) # penguins
 library(quarto) # qmd 
 library(rmarkdown) # markdown
 library(tidyverse) # data wrangling
-library(papaja) # apa writing template
 ```
 
 ## Packages
