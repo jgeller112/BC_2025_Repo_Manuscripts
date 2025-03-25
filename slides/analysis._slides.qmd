@@ -21,7 +21,7 @@ format:
 2.  Inline code
 3.  Sourcing scripts
 
-## What are Code Chunks?
+## What are code chunks?
 
 -   Specified place for code
 -   Executable
@@ -82,7 +82,7 @@ Useful [code chunk options](https://quarto.org/docs/computations/execution-optio
 ## Customize Code Execution Options {.smaller}
 
 | Option | Description |
-|----|----|
+|------------------------------------|------------------------------------|
 | `eval` | `Evaluate the code chunk.` |
 | `echo` | `Include the source code in output` |
 | `output` | \`Include code output results (`true`, `false`, or `asis`)\` |
@@ -136,13 +136,7 @@ Option 3: Shortcuts:
 
 ```{{r}}
 #| label: ex-orig
-x = 1:10; y = 11:20
-plot(x, y)
-```
-
-```{{r}}
-#| label: ex-hide-code
-#| echo: false
+#| echo: true 
 x = 1:10; y = 11:20
 plot(x, y)
 ```
@@ -159,6 +153,25 @@ plot(x, y)
 x = 1:10; y = 11:20
 plot(x, y)
 ```
+:::
+:::::
+
+## Demo: echo option
+
+::::: columns
+::: {.column width="45%"}
+**Code**
+
+```{{r}}
+#| label: ex-hide-code
+#| echo: false
+x = 1:10; y = 11:20
+plot(x, y)
+```
+:::
+
+::: {.column width="45%"}
+**Output**
 
 `ex-hide-code` Output:
 
@@ -182,9 +195,37 @@ plot(x, y)
 
 ```{{r}}
 #| label: ex-orig
+#| eval: true
 x = 1:10; y = 11:20
 plot(x, y)
 ```
+
+:::
+
+::: {.column width="45%"}
+**Output**
+
+`ex-original` Output:
+
+```{r}
+#| label: ex-orig-2
+#| fig-height: 2.5
+x = 1:10; y = 11:20
+plot(x, y)
+```
+
+:::
+:::::
+
+
+## Demo: eval option
+
+`eval` shows code, but does not create results.
+
+::::: columns
+::: {.column width="45%"}
+**Code**
+
 
 ```{{r}}
 #| label: ex-not-run
@@ -197,15 +238,6 @@ plot(x, y)
 ::: {.column width="45%"}
 **Output**
 
-`ex-original` Output:
-
-```{r, echo = TRUE}
-#| label: ex-orig-2
-#| fig-height: 2.5
-x = 1:10; y = 11:20
-plot(x, y)
-```
-
 `ex-not-run` Output:
 
 ```{r}
@@ -217,6 +249,20 @@ plot(x, y)
 ```
 :::
 :::::
+
+## Code Fold
+
+```{r}
+#| echo: true 
+#| code-fold: true
+
+
+x = 1:10; y = 11:20
+plot(x, y)
+
+
+```
+
 
 ## Exercise
 
@@ -400,3 +446,5 @@ library(countdown)
 countdown(minutes = 10,
           color_background = "#FFCD00")
 ```
+
+

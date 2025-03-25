@@ -7,7 +7,7 @@ th, td {
 }
 
 pre {
-  max-height: 300px;  /* Adjust height of code chunks */
+  max-height: 200px;  /* Adjust height of code chunks */
   font-size: 18px;     /* Adjust font size */
   overflow-y: auto;    /* Add scrollbar if needed */
   background-color: black; /* Ensure readability */

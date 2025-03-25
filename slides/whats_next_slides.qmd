@@ -23,13 +23,15 @@ format:
 
 ## `Renv`
 
-![](images/renv.svg){fig-align="center"}
+![](images/renv.png){fig-align="center" width="245"}
 
 -   Most popular packages for reproducibility, and very easy to use:
 
     -   Open an R session in the folder containing the scripts
 
     -   Run `renv::init()` and check the folder for `renv.lock`
+
+    -   Use `renv::restore` to load all packages used at runtime
 
 ## `Renv`
 
@@ -96,35 +98,35 @@ format:
 
 ::::: columns
 ::: {.column width="50%"}
-![](images/example_rix.png){fig-align="center" width="912"}
+![](images/example_rix.png){fig-align="center" width="404"}
 :::
 
 ::: {.column width="50%"}
 -   `{rix}` ([website](https://docs.ropensci.org/rix/)) makes writing Nix expression easy!
 
 -   Simply use the provided `rix()` function:
-
-    ```{r}
-    #| eval: false 
-    #| echo: true
-
-    # download latest version
-    install.packages("rix", repos = c(
-      "https://ropensci.r-universe.dev"
-    ))
-
-    library(rix)
-
-    rix(date = "2025-01-27", # date or r version wanted
-        r_pkgs = c("brms", "palmerpenguins"), # r packages
-        system_pkgs = NULL, # system dependencies
-        git_pkgs = NULL, # github packages
-        tex_pkgs = NULL, # latex packages
-        ide = "code", # what ide you want to use rstudio/positron/vscode
-        project_path = ".") # project path
-    ```
 :::
 :::::
+
+```{r}
+#| eval: false 
+#| echo: true
+
+# download latest version
+install.packages("rix", repos = c(
+  "https://ropensci.r-universe.dev"
+))
+
+library(rix)
+
+rix(date = "2025-01-27", # date or r version wanted
+    r_pkgs = c("brms", "palmerpenguins"), # r packages
+    system_pkgs = NULL, # system dependencies
+    git_pkgs = NULL, # github packages
+    tex_pkgs = NULL, # latex packages
+    ide = "code", # what ide you want to use rstudio/positron/vscode
+    project_path = ".") # project path
+```
 
 ## Nix/`Rix`
 
