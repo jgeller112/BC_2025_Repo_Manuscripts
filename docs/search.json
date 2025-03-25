@@ -319,7 +319,7 @@
     "href": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",
     "title": "Reproducible Manuscripts in R",
     "section": "In the Wild: Data Science Gone Wrong",
-    "text": "In the Wild: Data Science Gone Wrong\n\n\n\nRetraction Watch by Adam Marcus, Ivan Oransky, and Alison McCook Monitors for authors retracting their paper from a journal.\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff.\n\nThe error was found by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin."
+    "text": "In the Wild: Data Science Gone Wrong\n\n\n\nRetraction Watch by Adam Marcus, Ivan Oransky, and Alison McCook Monitors for authors retracting their paper from a journal.\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff.\n\nFound by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin."
   },
   {
     "objectID": "slides/introduction_slides.html#advantages-2",
@@ -340,7 +340,7 @@
     "href": "slides/introduction_slides.html#getting-started",
     "title": "Reproducible Manuscripts in R",
     "section": "Getting started",
-    "text": "Getting started\n\nApproach 1: Start from scratch (now)\n\nCreating a Quarto manuscript\n\nRStudio: New Project &gt; New Directory &gt; Quarto Manuscript\n\n\n\n\n\n\n\n\nNote\n\n\nAlways start a new project folder!\n\n\n\nApproach 2: Start with a sample template (later)"
+    "text": "Getting started\n\nApproach 1: Start from scratch (now)\n\nCreating a Quarto manuscript\n\nRStudio: New Project &gt; New Directory &gt; Quarto Manuscript\n\n\n\n\n\n\n\n\n\nNote\n\n\nAlways start a new project folder!\n\n\n\n\nApproach 2: Start with a sample template (later)"
   },
   {
     "objectID": "slides/introduction_slides.html#create-a-quarto-document",

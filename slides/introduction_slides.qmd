@@ -223,11 +223,11 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
 -   One such case of a paper being retracted due to an Excel error was the [Growth in a Time of Debt](https://www.nber.org/papers/w15639) by Reinhart & Rogoff.
 
-    -   The error was found by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin.
+    -   Found by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin.
 :::
 
 ::: {.column width="50%"}
-![](images/excel_error.jpg){fig-align="center"}
+![](images/excel_error.jpg){fig-align="center" width="369"}
 :::
 :::::
 
@@ -255,9 +255,9 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
         -   RStudio: New Project \> New Directory \> Quarto Manuscript
 
--   ::: callout-note
-    Always start a new project folder!
-    :::
+::: callout-note
+Always start a new project folder!
+:::
 
 -   Approach 2: Start with a sample template (later)
 
