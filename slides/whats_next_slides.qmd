@@ -9,7 +9,7 @@ format:
     code-overflow: wrap
     code-line-numbers: false
     incremental: true
-    fontsize: "28pt"
+    fontsize: "25pt"
     css: styles.css
 ---
 
@@ -70,9 +70,8 @@ format:
 -   Not actually dealing with reproducibility per se, we’re “abusing” Docker in a way
 
     ::: callout-tip
-    ![](images/clipboard-123047757.png){width="77"}
-
-    -   Can use Code Ocean instead
+    -   Can use Code Ocean instead (<https://codeocean.com/>) - costs money
+    -   Binder (free) and you can set it up within manuscript
     :::
 
 ## Nix/`Rix`
