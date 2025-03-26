@@ -19,8 +19,6 @@ format:
     fig-height: 14
 ---
 
-# Introduction
-
 ## What is reproduciblity?
 
 <br>
@@ -79,11 +77,11 @@ format:
 
 -   Today we are going to focus on reproducible manuscripts
 
-    -   All text
+    -   Text
 
-    -   All code
+    -   Code/analyses
 
-    -   All analyses
+    -   Citations
 
 ## Packages
 
@@ -107,6 +105,17 @@ tinytex::install_tinytex()
 ```
 
 -   You should also have Zotero installed along with Better BibTeX (nice, but not necessary)
+
+## Typical workflow
+
+```{=html}
+<iframe width="600" height="400" src="https://www.youtube.com/embed/s3JldKoA0zw?si=Gp1cbbbzRmNUSmdq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+1.  Do your analyses
+2.  Open a program (Word)
+3.  Copy-paste results and figures/tables
+4.  Manually format your results and citations
 
 # The Problem
 
@@ -167,7 +176,7 @@ tinytex::install_tinytex()
 
 ::::: columns
 ::: {.column width="50%"}
--   Next generation publishing system.
+-   Authoring framework for data science, designed for reprodicibility
 -   Unify and extends the R Markdown ecosystem.
 -   **Develop** and **Switch** formats without hassle.
 :::
@@ -176,6 +185,16 @@ tinytex::install_tinytex()
 ![](assets/wasm-images/logo-quarto.png){fig-alt="The Quarto hexagon logo." fig-align="center"}
 :::
 :::::
+
+## Hello Quarto!
+
+-   Websites (www.drjasongeller.com)
+
+-   Blogs
+
+-   Books (<https://jgeller112.github.io/dis_flu_modeling/>)
+
+-   Want to guess how I created these slides?
 
 ## Big universe
 
@@ -215,7 +234,7 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
 ## Advantages
 
-**(1) Eliminate human error in copying and pasting results**
+**(1) Eliminate/reduce human error**
 
 ## In the Wild: Data Science Gone Wrong
 
@@ -243,7 +262,7 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
 **(3) Promote computational reproducibility**
 
--   Easy verification and replication of research findings
+-   Easy verification and reproducilbility of research findings
 
 -   While programming environments may seem counter-intuitive for writing papers, they ultimately prevent mistakes and save time.
 

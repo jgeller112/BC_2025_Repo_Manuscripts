@@ -221,7 +221,7 @@
     "href": "slides/introduction_slides.html#open-science-reproducibility",
     "title": "Reproducible Manuscripts in R",
     "section": "Open Science + Reproducibility",
-    "text": "Open Science + Reproducibility\n\nToday we are going to focus on reproducible manuscripts\n\nAll text\nAll code\nAll analyses"
+    "text": "Open Science + Reproducibility\n\nToday we are going to focus on reproducible manuscripts\n\nText\nCode/analyses\nCitations"
   },
   {
     "objectID": "slides/introduction_slides.html#packages",
@@ -236,6 +236,13 @@
     "title": "Reproducible Manuscripts in R",
     "section": "Packages",
     "text": "Packages\n\ninstall.packages('tinytex') # for use with pdf \ntinytex::install_tinytex()\n# to uninstall TinyTeX, run tinytex::uninstall_tinytex() \n\n\nYou should also have Zotero installed along with Better BibTeX (nice, but not necessary)"
+  },
+  {
+    "objectID": "slides/introduction_slides.html#typical-workflow",
+    "href": "slides/introduction_slides.html#typical-workflow",
+    "title": "Reproducible Manuscripts in R",
+    "section": "Typical workflow",
+    "text": "Typical workflow\n\n\nDo your analyses\nOpen a program (Word)\nCopy-paste results and figures/tables\nManually format your results and citations"
   },
   {
     "objectID": "slides/introduction_slides.html#word",
@@ -270,7 +277,14 @@
     "href": "slides/introduction_slides.html#hello-quarto",
     "title": "Reproducible Manuscripts in R",
     "section": "Hello Quarto!",
-    "text": "Hello Quarto!\n\n\n\nNext generation publishing system.\nUnify and extends the R Markdown ecosystem.\nDevelop and Switch formats without hassle."
+    "text": "Hello Quarto!\n\n\n\nAuthoring framework for data science, designed for reprodicibility\nUnify and extends the R Markdown ecosystem.\nDevelop and Switch formats without hassle."
+  },
+  {
+    "objectID": "slides/introduction_slides.html#hello-quarto-1",
+    "href": "slides/introduction_slides.html#hello-quarto-1",
+    "title": "Reproducible Manuscripts in R",
+    "section": "Hello Quarto!",
+    "text": "Hello Quarto!\n\nWebsites (www.drjasongeller.com)\nBlogs\nBooks (https://jgeller112.github.io/dis_flu_modeling/)\nWant to guess how I created these slides?"
   },
   {
     "objectID": "slides/introduction_slides.html#big-universe",
@@ -305,7 +319,7 @@
     "href": "slides/introduction_slides.html#advantages",
     "title": "Reproducible Manuscripts in R",
     "section": "Advantages",
-    "text": "Advantages\n(1) Eliminate human error in copying and pasting results"
+    "text": "Advantages\n(1) Eliminate/reduce human error"
   },
   {
     "objectID": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",
@@ -326,7 +340,7 @@
     "href": "slides/introduction_slides.html#advantages-2",
     "title": "Reproducible Manuscripts in R",
     "section": "Advantages",
-    "text": "Advantages\n(3) Promote computational reproducibility\n\nEasy verification and replication of research findings\nWhile programming environments may seem counter-intuitive for writing papers, they ultimately prevent mistakes and save time."
+    "text": "Advantages\n(3) Promote computational reproducibility\n\nEasy verification and reproducilbility of research findings\nWhile programming environments may seem counter-intuitive for writing papers, they ultimately prevent mistakes and save time."
   },
   {
     "objectID": "slides/introduction_slides.html#getting-started",
