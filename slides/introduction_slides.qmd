@@ -13,7 +13,7 @@ format:
     controls: true
     incremental: true
     code-overflow: wrap
-    fontsize: "28pt"
+    fontsize: "25pt"
     css: styles.css
     fig-width: 12
     fig-height: 14
@@ -22,6 +22,10 @@ format:
 # Introduction
 
 ## What is reproduciblity?
+
+<br>
+
+<br>
 
 ```{=html}
 <table style="border-collapse: collapse; color: white; text-align: center; width: 100%; border: 2px solid white;">
@@ -43,9 +47,9 @@ format:
 </table>
 ```
 
--   If I take the same analysis pipeline and apply it the same dataset, I will get the same results
+-   If I take the same analysis pipeline and apply it to the same dataset, I get the same results
 
-    -   This is reproduciblity
+    -   This is reproducibility
 
 ## What is open science?
 
@@ -114,7 +118,7 @@ tinytex::install_tinytex()
 :::
 
 ::: {.column width="50%"}
-![](img/word_document_surface.png){fig-align="center" width="895"}
+![](img/word_document_surface.png){fig-align="center" width="1075"}
 :::
 :::::
 
@@ -213,13 +217,11 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
 **(1) Eliminate human error in copying and pasting results**
 
-## Advantages
-
 ## In the Wild: Data Science Gone Wrong
 
 ::::: columns
 ::: {.column width="50%"}
--   [Retraction Watch](https://retractionwatch.com/) by Adam Marcus, Ivan Oransky, and Alison McCook Monitors for authors retracting their paper from a journal.
+-   [Retraction Watch](https://retractionwatch.com/)
 
 -   One such case of a paper being retracted due to an Excel error was the [Growth in a Time of Debt](https://www.nber.org/papers/w15639) by Reinhart & Rogoff.
 
@@ -227,7 +229,7 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 :::
 
 ::: {.column width="50%"}
-![](images/excel_error.jpg){fig-align="center" width="369"}
+![](images/excel_error.jpg){fig-align="center" width="466"}
 :::
 :::::
 

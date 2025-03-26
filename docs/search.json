@@ -207,7 +207,7 @@
     "href": "slides/introduction_slides.html#what-is-reproduciblity",
     "title": "Reproducible Manuscripts in R",
     "section": "What is reproduciblity?",
-    "text": "What is reproduciblity?\n\n\n\nAnalysis / Data\nSame\nDifferent\n\n\nSame Analysis\nReproducible\nReplicable\n\n\nDifferent Analysis\nRobust\nGeneralisable\n\n\n\n\nIf I take the same analysis pipeline and apply it the same dataset, I will get the same results\n\nThis is reproduciblity"
+    "text": "What is reproduciblity?\n\n\n\n\n\nAnalysis / Data\nSame\nDifferent\n\n\nSame Analysis\nReproducible\nReplicable\n\n\nDifferent Analysis\nRobust\nGeneralisable\n\n\n\n\nIf I take the same analysis pipeline and apply it to the same dataset, I get the same results\n\nThis is reproducibility"
   },
   {
     "objectID": "slides/introduction_slides.html#what-is-open-science",
@@ -308,29 +308,22 @@
     "text": "Advantages\n(1) Eliminate human error in copying and pasting results"
   },
   {
-    "objectID": "slides/introduction_slides.html#advantages-1",
-    "href": "slides/introduction_slides.html#advantages-1",
-    "title": "Reproducible Manuscripts in R",
-    "section": "Advantages",
-    "text": "Advantages"
-  },
-  {
     "objectID": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",
     "href": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",
     "title": "Reproducible Manuscripts in R",
     "section": "In the Wild: Data Science Gone Wrong",
-    "text": "In the Wild: Data Science Gone Wrong\n\n\n\nRetraction Watch by Adam Marcus, Ivan Oransky, and Alison McCook Monitors for authors retracting their paper from a journal.\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff.\n\nFound by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin."
+    "text": "In the Wild: Data Science Gone Wrong\n\n\n\nRetraction Watch\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff.\n\nFound by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin."
   },
   {
-    "objectID": "slides/introduction_slides.html#advantages-2",
-    "href": "slides/introduction_slides.html#advantages-2",
+    "objectID": "slides/introduction_slides.html#advantages-1",
+    "href": "slides/introduction_slides.html#advantages-1",
     "title": "Reproducible Manuscripts in R",
     "section": "Advantages",
     "text": "Advantages\n(2) Easy revisions and specification of desired figures and tables\nWhen revisions are requested, one might have to tweak tables and figures by hand constantly, leading to a major incentive never to rerun analyses because it would mean re-pasting and re-illustrating all the numbers and figures in a paper."
   },
   {
-    "objectID": "slides/introduction_slides.html#advantages-3",
-    "href": "slides/introduction_slides.html#advantages-3",
+    "objectID": "slides/introduction_slides.html#advantages-2",
+    "href": "slides/introduction_slides.html#advantages-2",
     "title": "Reproducible Manuscripts in R",
     "section": "Advantages",
     "text": "Advantages\n(3) Promote computational reproducibility\n\nEasy verification and replication of research findings\nWhile programming environments may seem counter-intuitive for writing papers, they ultimately prevent mistakes and save time."
