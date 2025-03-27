@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "slides/writing_slides.html#topics",
+    "href": "slides/writing_slides.html#topics",
+    "title": "Reproducible Manuscripts in R with Quarto Workshop",
+    "section": "Topics",
+    "text": "Topics\n\nMarkdown Syntax\nReferencing"
+  },
+  {
     "objectID": "slides/writing_slides.html#markdown-syntax",
     "href": "slides/writing_slides.html#markdown-syntax",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
@@ -175,18 +182,18 @@
     "text": "Working With BibTex Keys\nThe typical workflow is as follows:\n\n\nFind a reference that you need in your manuscript.\nSave it to your Zotero library via the browser extension\nZotero automatically updates your .bib file through syncing with Zotero desktop and updating the .bib file.\nCite the references using the @ + reference identifier:\n\nIn-text citations: @nash51 OR @RMarkdownWritingReproducible\nBracketed citations: [@nash51] OR [@nash51, @RMarkdownWritingReproducible]\n\n\n\n\nMore info: https://quarto.org/docs/authoring/footnotes-and-citations.html"
   },
   {
-    "objectID": "slides/writing_slides.html#exercise",
-    "href": "slides/writing_slides.html#exercise",
-    "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Exercise",
-    "text": "Exercise\nGo to the Referencing section on the website and refer to the instructions in the Exercise section.\nYou will go through the workflow of creating a .bib file that will be automatically updated by Zotero and integrating it with your Quarto document.\n\n\n\n−+\n10:00"
-  },
-  {
     "objectID": "slides/writing_slides.html#references-on-the-fly",
     "href": "slides/writing_slides.html#references-on-the-fly",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "References on the fly",
     "text": "References on the fly\n\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nLet’s go to RStudio!"
+  },
+  {
+    "objectID": "slides/writing_slides.html#exercise",
+    "href": "slides/writing_slides.html#exercise",
+    "title": "Reproducible Manuscripts in R with Quarto Workshop",
+    "section": "Exercise",
+    "text": "Exercise\nGo to the Referencing section on the website and refer to the instructions in the Exercise section.\nYou will go through the workflow of creating a .bib file that will be automatically updated by Zotero and integrating it with your Quarto document.\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/writing_slides.html#apa-style",
@@ -242,7 +249,7 @@
     "href": "slides/introduction_slides.html#typical-workflow",
     "title": "Reproducible Manuscripts in R",
     "section": "Typical workflow",
-    "text": "Typical workflow\n\n\nDo your analyses\nOpen a program (Word)\nCopy-paste results and figures/tables\nManually format your results and citations"
+    "text": "Typical workflow\n\nhttps://www.youtube.com/watch?v=s3JldKoA0zw\n\n\n\nDo your analyses\nOpen a program (Word)\nCopy-paste results and figures/tables\nManually format your results and citations"
   },
   {
     "objectID": "slides/introduction_slides.html#word",
@@ -389,7 +396,7 @@
     "href": "slides/introduction_slides.html#metadata-header-yaml",
     "title": "Reproducible Manuscripts in R",
     "section": "Metadata & Header (YAML)",
-    "text": "Metadata & Header (YAML)\n---\ntitle: My Reproducible Manuscript\nauthors:\n  - name: Norah Jones\n    affiliation: The University\n    roles: writing\n    corresponding: true\nbibliography: references.bib\nformat: html\n---\n\nWait… what’s the YAML acronym?\n\nOriginally: “Yet Another Markup Language”\nLater: “YAML Ain’t Markup Language”\n\nSet global manuscript options with key-value pairs"
+    "text": "Metadata & Header (YAML)\n\nThe YAML header cotains basic metadata and rendering instructions\n\n---\ntitle: My Reproducible Manuscript\nauthors:\n  - name: Norah Jones\n    affiliation: The University\n    roles: writing\n    corresponding: true\nbibliography: references.bib\nformat: html\n---\n\nWait… what’s the YAML acronym?\n\nOriginally: “Yet Another Markup Language”\nLater: “YAML Ain’t Markup Language”\n\nSet global manuscript options with key-value pairs"
   },
   {
     "objectID": "slides/introduction_slides.html#code",

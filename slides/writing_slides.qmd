@@ -14,7 +14,7 @@ format:
 
 # Writing {background-color="#FFCD00"}
 
-# Topics
+## Topics
 
 -   Markdown Syntax
 -   Referencing
@@ -457,6 +457,12 @@ The typical workflow is as follows:
 
 More info: <https://quarto.org/docs/authoring/footnotes-and-citations.html>
 
+## References on the fly
+
+-   Alternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.
+
+-   Let's go to RStudio!
+
 ## Exercise
 
 Go to the *Referencing* section on the website and refer to the instructions in the *Exercise* section.
@@ -469,12 +475,6 @@ library(countdown)
 countdown(minutes = 10,
           color_background = "#FFCD00")
 ```
-
-## References on the fly
-
--   Alternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.
-
--   Let's go to RStudio!
 
 ## APA Style
 
