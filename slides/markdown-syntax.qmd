@@ -52,7 +52,7 @@ We're assuming installation of Zotero Desktop, Zotero Connector, and Better BibT
 -   Click the option to *Keep updated*
 -   Provide the file name as `references` and **save it in the same folder as your Quarto document**
 
-4.  In **RStudio** or **VS Code**,
+4.  In **RStudio**,
 
 -   update the YAML to include the bibliography:
 

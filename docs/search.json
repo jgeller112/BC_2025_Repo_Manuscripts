@@ -10,8 +10,8 @@
     "objectID": "slides/writing_slides.html#markdown-syntax",
     "href": "slides/writing_slides.html#markdown-syntax",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown Syntax",
-    "text": "Markdown Syntax\nWhen writing the body of your document, you will use the Markdown format.\n\n\nMarkdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. - Markdown Guide"
+    "section": "Markdown syntax",
+    "text": "Markdown syntax\nWhen writing the body of your document, you will use the Markdown format.\n\n\nMarkdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. - Markdown Guide"
   },
   {
     "objectID": "slides/writing_slides.html#a-world-with-markdown",
@@ -31,22 +31,22 @@
     "objectID": "slides/writing_slides.html#markdown-in-the-wild-reddit",
     "href": "slides/writing_slides.html#markdown-in-the-wild-reddit",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown in the Wild: Reddit",
-    "text": "Markdown in the Wild: Reddit\n\nWriting a post using markdown on Stanford’s Subreddit"
+    "section": "Markdown in the wild: Reddit",
+    "text": "Markdown in the wild: Reddit\n\nWriting a post using markdown on Stanford’s Subreddit"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-in-the-wild-github",
     "href": "slides/writing_slides.html#markdown-in-the-wild-github",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown in the Wild: GitHub",
-    "text": "Markdown in the Wild: GitHub\n\nWriting an issue using markdown on GitHub"
+    "section": "Markdown in the wild: GitHub",
+    "text": "Markdown in the wild: GitHub\n\nWriting an issue using markdown on GitHub"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-quick-reference-in-rstudio",
     "href": "slides/writing_slides.html#markdown-quick-reference-in-rstudio",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown Quick Reference In RStudio",
-    "text": "Markdown Quick Reference In RStudio\n\n\n\nAccessing the “Markdown Quick Reference” Guide inside of RStudio"
+    "section": "Markdown quick reference in RStudio",
+    "text": "Markdown quick reference in RStudio\n\n\n\nAccessing the “Markdown Quick Reference” Guide inside of RStudio"
   },
   {
     "objectID": "slides/writing_slides.html#learning-markdown",
@@ -66,36 +66,36 @@
     "objectID": "slides/writing_slides.html#markdown-sneak-peek-headers",
     "href": "slides/writing_slides.html#markdown-sneak-peek-headers",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown Sneak Peek: Headers",
-    "text": "Markdown Sneak Peek: Headers\n\n\n\n\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n\n# Header 1\nHeader 1\n\n\n## Header 2\nHeader 2\n\n\n### Header 3\nHeader 3\n\n\n#### Header 4\nHeader 4"
+    "section": "Markdown sneak peek: Headers",
+    "text": "Markdown sneak peek: Headers\n\n\n\n\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n\n# Header 1\nHeader 1\n\n\n## Header 2\nHeader 2\n\n\n### Header 3\nHeader 3\n\n\n#### Header 4\nHeader 4"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-sneak-peek-quotes",
     "href": "slides/writing_slides.html#markdown-sneak-peek-quotes",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown Sneak Peek: Quotes",
-    "text": "Markdown Sneak Peek: Quotes\n\n\nCode\n&gt; \"Never gonna give you up,\n&gt;  never gonna let you down...\"\n&gt;\n&gt; --- Rick Astley\n\nOutput\n\n“Never gonna give you up, never gonna let you down…”\n— Rick Astley"
+    "section": "Markdown sneak peek: Quotes",
+    "text": "Markdown sneak peek: Quotes\n\n\nCode\n&gt; \"Never gonna give you up,\n&gt;  never gonna let you down...\"\n&gt;\n&gt; --- Rick Astley\n\nOutput\n\n“Never gonna give you up, never gonna let you down…”\n— Rick Astley"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-sneak-peek-math",
     "href": "slides/writing_slides.html#markdown-sneak-peek-math",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown Sneak Peek: Math",
-    "text": "Markdown Sneak Peek: Math\n\n\nCode\nInline math: \n$a^2 + b^2 = c^2$\n\nDisplay math (centered math):\n$$1 - x = y$$\n\nOutput\nInline math: \\(a^2 + b^2 = c^2\\)\nDisplay math (centered math): \\[1 - x = y\\]"
+    "section": "Markdown sneak peek: Math",
+    "text": "Markdown sneak peek: Math\n\n\nCode\nInline math: \n$a^2 + b^2 = c^2$\n\nDisplay math (centered math):\n$$1 - x = y$$\n\nOutput\nInline math: \\(a^2 + b^2 = c^2\\)\nDisplay math (centered math): \\[1 - x = y\\]"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-sneak-peek-lists-unordered",
     "href": "slides/writing_slides.html#markdown-sneak-peek-lists-unordered",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown Sneak Peek: Lists Unordered",
-    "text": "Markdown Sneak Peek: Lists Unordered\n\n\nCode\nMy **un**ordered list:\n\n- Write Selection Simulation\n- Conference Abstracts\n     - UseR\n     - Learning at Scale\n\nOutput\nMy unordered list:\n\nWrite Selection Simulation\nConference Abstracts\n\nUseR\nLearning at Scale"
+    "section": "Markdown sneak peek: Lists unordered",
+    "text": "Markdown sneak peek: Lists unordered\n\n\nCode\nMy **un**ordered list:\n\n- Write Selection Simulation\n- Conference Abstracts\n     - UseR\n     - Learning at Scale\n\nOutput\nMy unordered list:\n\nWrite Selection Simulation\nConference Abstracts\n\nUseR\nLearning at Scale"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-sneak-peek-lists-ordered",
     "href": "slides/writing_slides.html#markdown-sneak-peek-lists-ordered",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown Sneak Peek: Lists Ordered",
-    "text": "Markdown Sneak Peek: Lists Ordered\n\n\nCode\nMy **ordered** list:\n\n1. Apples\n1. Bananas\n1. Chobani\n    1. Pineapple\n    1. Everything else\n\nOutput\nMy ordered list:\n\nApples\nBananas\nChobani\n\nPineapple\nEverything else"
+    "section": "Markdown sneak peek: Lists ordered",
+    "text": "Markdown sneak peek: Lists ordered\n\n\nCode\nMy **ordered** list:\n\n1. Apples\n1. Bananas\n1. Chobani\n    1. Pineapple\n    1. Everything else\n\nOutput\nMy ordered list:\n\nApples\nBananas\nChobani\n\nPineapple\nEverything else"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-sneak-peek-summary",
@@ -123,25 +123,32 @@
     "href": "slides/writing_slides.html#markdown-sneak-peek-links",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "Markdown sneak peek: Links",
-    "text": "Markdown sneak peek: Links\n\n\n\nYou can embed [named hyperlinks](https://quarto.org/)\n\nYou can embed named hyperlinks\n\n\n\n\n\nSimply a direct url like &lt;https://quarto.org/&gt;\n\nSimply a direct url like https://quarto.org/\n\n\n\n\n\n\nLinks to [other places](#quarto-anatomy) in the document. \n\nLinks to other places in the document.\n\n\n\n\n\n\nOr embed an image: \n![penguins](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)\n\nOr embed an image:"
+    "text": "Markdown sneak peek: Links\n\n\n\nYou can embed [named hyperlinks](https://quarto.org/)\n\nYou can embed named hyperlinks\n\n\n\n\n\nSimply a direct url like &lt;https://quarto.org/&gt;\n\nSimply a direct url like https://quarto.org/\n\n\n\n\n\n\nLinks to [other places](#quarto-anatomy) in the document. \n\nLinks to other places in the document."
   },
   {
-    "objectID": "slides/writing_slides.html#markdown-sneak-peek-callout-blocks",
-    "href": "slides/writing_slides.html#markdown-sneak-peek-callout-blocks",
+    "objectID": "slides/writing_slides.html#markdown-sneak-peek-links-1",
+    "href": "slides/writing_slides.html#markdown-sneak-peek-links-1",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Markdown sneak peek: Callout blocks",
-    "text": "Markdown sneak peek: Callout blocks\n\nCall-out blocks highlight sections of text that interrupt the flow of your regular text. Maybe it’s a definition, a warning, or a sidenote\nWhen rendering your document to HTML, callout blocks are interactive and can be collapsed and opened.\n\n\n\n\n\n\nMy First Callout Block!\n\n\nSay things here"
+    "section": "Markdown sneak peek: Links",
+    "text": "Markdown sneak peek: Links\n\n\n\nOr embed an image: \n![penguins](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)\n\nOr embed an image:"
   },
   {
     "objectID": "slides/writing_slides.html#callout-blocks",
     "href": "slides/writing_slides.html#callout-blocks",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "Callout blocks",
-    "text": "Callout blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important."
+    "text": "Callout blocks\n\nCall-out blocks highlight sections of text that interrupt the flow of your regular text. Maybe it’s a definition, a warning, or a sidenote\nWhen rendering your document to HTML, callout blocks are interactive and can be collapsed and opened.\n\n\n\n\n\n\nMy First Callout Block!\n\n\nSay things here"
   },
   {
     "objectID": "slides/writing_slides.html#callout-blocks-1",
     "href": "slides/writing_slides.html#callout-blocks-1",
+    "title": "Reproducible Manuscripts in R with Quarto Workshop",
+    "section": "Callout blocks",
+    "text": "Callout blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important."
+  },
+  {
+    "objectID": "slides/writing_slides.html#callout-blocks-2",
+    "href": "slides/writing_slides.html#callout-blocks-2",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "Callout blocks",
     "text": "Callout blocks\n\n\n\n\n\n\nWarning\n\n\nCallouts provide a simple way to attract attention, for example, to this warning.\n\n\n\n\n\n\n\n\n\nThis is important\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\n\nTip with caption\n\n\n\n\n\n\n\n\n\n\n\n\nCaution, under construction\n\n\nHere is something under construction"
@@ -291,7 +298,7 @@
     "href": "slides/introduction_slides.html#hello-quarto-1",
     "title": "Reproducible Manuscripts in R",
     "section": "Hello Quarto!",
-    "text": "Hello Quarto!\n\nWebsites (www.drjasongeller.com)\nBlogs\nBooks (https://jgeller112.github.io/dis_flu_modeling/)\nWant to guess how I created these slides?"
+    "text": "Hello Quarto!\n\nWebsites (https://www.drjasongeller.com)\nBlogs\nBooks (https://jgeller112.github.io/dis_flu_modeling/)\nWant to guess how I created these slides?"
   },
   {
     "objectID": "slides/introduction_slides.html#big-universe",
@@ -315,18 +322,11 @@
     "text": "How Quarto Works\nQuarto handles literate programming by using a series of programs:\n\nHow Quarto Works (Source)\nknitr executes all code chunks and creates a new markdown (.md) file\npandoc takes the markdown file generated and converts it to the desired format.\nRender inside of RStudio handles the interaction."
   },
   {
-    "objectID": "slides/introduction_slides.html#source-vs.-visual-mode",
-    "href": "slides/introduction_slides.html#source-vs.-visual-mode",
-    "title": "Reproducible Manuscripts in R",
-    "section": "Source vs. Visual Mode",
-    "text": "Source vs. Visual Mode\n\n\n\n\n\nSource Editing Mode\n\n\n\n\n\n\nVisual Editing Mode\n\n\n\n\nVisual Mode represents a What You See Is What You Get (WYSIWYG) editor. This mode is similar to Word."
-  },
-  {
     "objectID": "slides/introduction_slides.html#advantages",
     "href": "slides/introduction_slides.html#advantages",
     "title": "Reproducible Manuscripts in R",
     "section": "Advantages",
-    "text": "Advantages\n(1) Eliminate/reduce human error\nWe found that half of all published psychology papers that use null-hypothesis significance testing (NHST) contained at least one p-value that was inconsistent with its test statistic and degrees of freedom. One in eight papers contained a grossly inconsistent p-value that may have affected the statistical conclusion_\n_([Nuijten et al., 2016](https://doi.org/10.3758/s13428-015-0664-2)))_)_"
+    "text": "Advantages\n(1) Eliminate/reduce human error\nWe found that half of all published psychology papers that use null-hypothesis significance testing (NHST) contained at least one p-value that was inconsistent with its test statistic and degrees of freedom. One in eight papers contained a grossly inconsistent p-value that may have affected the statistical conclusion)\nNuijten et al., 2016\nhttps://michelenuijten.shinyapps.io/statcheck-web/"
   },
   {
     "objectID": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",
@@ -362,6 +362,13 @@
     "title": "Reproducible Manuscripts in R",
     "section": "Create a Quarto Document",
     "text": "Create a Quarto Document\n\n\nIn the top left, click the White Plus and select “Quarto Document…”\n\n\n\nCreating a new Quarto Document\n\n\n\nIn the new prompt, enter a title, author name, and press “Create”\n\n\n\nNew Document Options"
+  },
+  {
+    "objectID": "slides/introduction_slides.html#source-vs.-visual-mode",
+    "href": "slides/introduction_slides.html#source-vs.-visual-mode",
+    "title": "Reproducible Manuscripts in R",
+    "section": "Source vs. Visual Mode",
+    "text": "Source vs. Visual Mode\n\n\n\n\n\nSource Editing Mode\n\n\n\n\n\n\nVisual Editing Mode\n\n\n\n\nVisual Mode represents a What You See Is What You Get (WYSIWYG) editor. This mode is similar to Word."
   },
   {
     "objectID": "slides/introduction_slides.html#getting-started-1",
@@ -637,7 +644,7 @@
     "href": "slides/markdown-syntax.html",
     "title": "Markdown Syntax",
     "section": "",
-    "text": "View slides in full screen\n \n\n\n\n\n\n\nRecreate the following paragraph in your Quarto document using Markdown:\nMeet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. \nTo learn more about Quarto see https://quarto.org.\n\nMeet the penguins\n\nThe `penguins` data from the palmerpenguins package contains size measurements for344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica. \n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\n\n\n\n\n\nYou can find the illustration of the three species of Palmer Archipelago penguins (Chinstrap, Gentoo, and Adelie) here: https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png.\nThe link to the Palmer Penguins package is here: https://allisonhorst.github.io/palmerpenguins/.\n\n\n\n\n\nWe’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio or VS Code,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
+    "text": "View slides in full screen\n \n\n\n\n\n\n\nRecreate the following paragraph in your Quarto document using Markdown:\nMeet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. \nTo learn more about Quarto see https://quarto.org.\n\nMeet the penguins\n\nThe `penguins` data from the palmerpenguins package contains size measurements for344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica. \n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\n\n\n\n\n\nYou can find the illustration of the three species of Palmer Archipelago penguins (Chinstrap, Gentoo, and Adelie) here: https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png.\nThe link to the Palmer Penguins package is here: https://allisonhorst.github.io/palmerpenguins/.\n\n\n\n\n\nWe’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
     "crumbs": [
       "Workshop",
       "Slides",
@@ -673,7 +680,7 @@
     "href": "slides/markdown-syntax.html#exercise-referencing",
     "title": "Markdown Syntax",
     "section": "",
-    "text": "We’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio or VS Code,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
+    "text": "We’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
     "crumbs": [
       "Workshop",
       "Slides",
@@ -901,5 +908,19 @@
     "title": "References",
     "section": "",
     "text": "References"
+  },
+  {
+    "objectID": "Untitled.html#participants",
+    "href": "Untitled.html#participants",
+    "title": "Untitled",
+    "section": "Participants",
+    "text": "Participants"
+  },
+  {
+    "objectID": "Untitled.html#materials",
+    "href": "Untitled.html#materials",
+    "title": "Untitled",
+    "section": "Materials",
+    "text": "Materials\n\\(\\mu\\)\n\\(\\sigma\\)\n\\(R^2\\)\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe are weriting this manusript for this stupid qorkship (Geller et al., n.d.).\n:::\n\nhelp\n\n\nhelp me"
   }
 ]

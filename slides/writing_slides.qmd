@@ -19,7 +19,7 @@ format:
 -   Markdown syntax
 -   Referencing
 
-## Markdown Syntax
+## Markdown syntax
 
 When writing the body of your document, you will use the [Markdown](https://daringfireball.net/projects/markdown/syntax) format.
 
@@ -72,15 +72,15 @@ Markdown is the
 to creating any kind of document
 :::
 
-## Markdown in the Wild: Reddit
+## Markdown in the wild: Reddit
 
 ![Writing a post using markdown on [Stanford's Subreddit](https://reddit.com/r/stanford)](assets/quarto-images/example-markdown-post-reddit-stanford.png){fig-alt="Demo using markdown to make a post on the website Reddit.com"}
 
-## Markdown in the Wild: GitHub
+## Markdown in the wild: GitHub
 
 ![Writing an issue using markdown on [GitHub](https://github.com)](assets/quarto-images/example-markdown-issue-github.png){fig-alt="Demo using markdown to create an issue on the website GitHub.com"}
 
-## Markdown Quick Reference In RStudio
+## Markdown quick reference in RStudio
 
 ![Accessing the "Markdown Quick Reference" Guide inside of RStudio](assets/quarto-images/qmd-annotations/markdown-cheatsheet.png){height="400" fig-alt="Opening the built-in Markdown quick reference sheet inside of RStudio by going to the help menu and selecting 'Markdown Quick Reference'."}
 
@@ -114,7 +114,7 @@ You can also use the **Visual Editor** in [VS Code](https://quarto.org/docs/visu
 | ```                           |                               |
 +-------------------------------+-------------------------------+
 
-## Markdown Sneak Peek: Headers
+## Markdown sneak peek: Headers
 
 +-----------------+---------------+
 | Markdown Syntax | Output        |
@@ -136,7 +136,7 @@ You can also use the **Visual Editor** in [VS Code](https://quarto.org/docs/visu
 | ```             |               |
 +-----------------+---------------+
 
-## Markdown Sneak Peek: Quotes
+## Markdown sneak peek: Quotes
 
 ::::: columns
 ::: {.column width="45%"}
@@ -159,7 +159,7 @@ You can also use the **Visual Editor** in [VS Code](https://quarto.org/docs/visu
 :::
 :::::
 
-## Markdown Sneak Peek: Math
+## Markdown sneak peek: Math
 
 ::::: columns
 ::: {.column width="45%"}
@@ -183,7 +183,7 @@ Display math (centered math): $$1 - x = y$$
 :::
 :::::
 
-## Markdown Sneak Peek: Lists Unordered
+## Markdown sneak peek: Lists unordered
 
 ::::: columns
 ::: {.column width="45%"}
@@ -211,7 +211,7 @@ My **un**ordered list:
 :::
 :::::
 
-## Markdown Sneak Peek: Lists Ordered
+## Markdown sneak peek: Lists ordered
 
 ::::: columns
 ::: {.column width="45%"}
@@ -324,6 +324,8 @@ Links to [other places](#quarto-anatomy) in the document.
 
 . . .
 
+## Markdown sneak peek: Links {.smaller}
+
 ::::: columns
 ::: {.column width="50%"}
 ``` markdown
@@ -338,7 +340,7 @@ Or embed an image: <br> ![penguins](https://allisonhorst.github.io/palmerpenguin
 :::
 :::::
 
-## Markdown sneak peek: Callout blocks
+## Callout blocks
 
 -   Call-out blocks highlight sections of text that interrupt the flow of your regular text. Maybe it's a definition, a warning, or a sidenote
 
@@ -392,7 +394,7 @@ This is an example of a 'folded' caution callout that can be expanded by the use
 
 ## Markdown exercise
 
-1.  Go to the Writing/Reference section on the website and refer to the text provided in the *Exercise* section.
+1.  Go to the `Writing/Reference` section on the website and refer to the text provided in the *Exercise* section.
 
 2.  Copy the text into your Quarto document, like an *Introduction* of sorts, and reformat it with Markdown Syntax
 
@@ -465,7 +467,7 @@ More info: <https://quarto.org/docs/authoring/footnotes-and-citations.html>
 
 ## Exercise
 
-Go to the *Referencing* section on the website and refer to the instructions in the *Exercise* section.
+Go to the *`Referencing`* section on the website and refer to the instructions in the *Exercise* section.
 
 You will go through the workflow of creating a `.bib` file that will be automatically updated by Zotero and integrating it with your Quarto document.
 
