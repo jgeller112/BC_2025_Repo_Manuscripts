@@ -7,11 +7,11 @@ th, td {
 }
 
 pre {
-  max-height: 200px;  /* Adjust height of code chunks */
+  max-height: 100px;  /* Adjust height of code chunks */
   font-size: 18px;     /* Adjust font size */
   overflow-y: auto;    /* Add scrollbar if needed */
   background-color: black; /* Ensure readability */
-  padding: 10px;       /* Add spacing */
+  padding: 5px;       /* Add spacing */
 }
 
 code {
