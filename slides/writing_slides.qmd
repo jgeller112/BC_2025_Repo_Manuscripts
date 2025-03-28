@@ -16,7 +16,7 @@ format:
 
 ## Topics
 
--   Markdown Syntax
+-   Markdown syntax
 -   Referencing
 
 ## Markdown Syntax

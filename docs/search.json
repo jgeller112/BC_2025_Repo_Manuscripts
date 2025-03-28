@@ -4,7 +4,7 @@
     "href": "slides/writing_slides.html#topics",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "Topics",
-    "text": "Topics\n\nMarkdown Syntax\nReferencing"
+    "text": "Topics\n\nMarkdown syntax\nReferencing"
   },
   {
     "objectID": "slides/writing_slides.html#markdown-syntax",
@@ -326,7 +326,7 @@
     "href": "slides/introduction_slides.html#advantages",
     "title": "Reproducible Manuscripts in R",
     "section": "Advantages",
-    "text": "Advantages\n(1) Eliminate/reduce human error"
+    "text": "Advantages\n(1) Eliminate/reduce human error\nWe found that half of all published psychology papers that use null-hypothesis significance testing (NHST) contained at least one p-value that was inconsistent with its test statistic and degrees of freedom. One in eight papers contained a grossly inconsistent p-value that may have affected the statistical conclusion_\n_([Nuijten et al., 2016](https://doi.org/10.3758/s13428-015-0664-2)))_)_"
   },
   {
     "objectID": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",

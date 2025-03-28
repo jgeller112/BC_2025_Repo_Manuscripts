@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Manuscripts in R "
+title: "Reproducible Manuscripts in R"
 subtitle: "Boston College"
 author: "Jason Geller, PH.D.(he/him)"
 date: 'Updated:`r Sys.Date()`'
@@ -235,6 +235,10 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 ## Advantages
 
 **(1) Eliminate/reduce human error**
+
+We found that half of all published psychology papers that use null-hypothesis significance testing (NHST) contained at least one p-value that was inconsistent with its test statistic and degrees of freedom. One in eight papers contained a grossly inconsistent p-value that may have affected the statistical conclusion\_
+
+\_(\[Nuijten et al., 2016\]([https://doi.org/10.3758/s13428-015-0664-2))](https://doi.org/10.3758/s13428-015-0664-2))_)\_
 
 ## In the Wild: Data Science Gone Wrong
 
