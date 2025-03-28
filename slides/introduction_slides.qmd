@@ -108,14 +108,13 @@ tinytex::install_tinytex()
 
 ## Typical workflow
 
--   <https://www.youtube.com/watch?v=s3JldKoA0zw>
-
-. . .
-
 1.  Do your analyses
 2.  Open a program (Word)
 3.  Copy-paste results and figures/tables
 4.  Manually format your results and citations
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s3JldKoA0zw" frameborder="0" data-external="1" allowfullscreen></iframe>
+
 
 # The Problem
 
@@ -232,7 +231,7 @@ We found that half of all published psychology papers that use null-hypothesis s
 ::: {.column width="50%"}
 -   [Retraction Watch](https://retractionwatch.com/)
 
--   One such case of a paper being retracted due to an Excel error was the [Growth in a Time of Debt](https://www.nber.org/papers/w15639) by Reinhart & Rogoff.
+-   One such case of a paper being retracted due to an Excel error was the [Growth in a Time of Debt](https://www.nber.org/papers/w15639) by Reinhart & Rogoff (2010)
 
     -   Found by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin.
 :::

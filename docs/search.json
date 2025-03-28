@@ -529,7 +529,7 @@
     "href": "slides/introduction_slides.html#typical-workflow",
     "title": "Reproducible Manuscripts in R",
     "section": "Typical workflow",
-    "text": "Typical workflow\n\nhttps://www.youtube.com/watch?v=s3JldKoA0zw\n\n\n\nDo your analyses\nOpen a program (Word)\nCopy-paste results and figures/tables\nManually format your results and citations"
+    "text": "Typical workflow\n\nDo your analyses\nOpen a program (Word)\nCopy-paste results and figures/tables\nManually format your results and citations"
   },
   {
     "objectID": "slides/introduction_slides.html#word",
@@ -606,7 +606,7 @@
     "href": "slides/introduction_slides.html#in-the-wild-data-science-gone-wrong",
     "title": "Reproducible Manuscripts in R",
     "section": "In the Wild: Data Science Gone Wrong",
-    "text": "In the Wild: Data Science Gone Wrong\n\n\n\nRetraction Watch\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff.\n\nFound by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin."
+    "text": "In the Wild: Data Science Gone Wrong\n\n\n\nRetraction Watch\nOne such case of a paper being retracted due to an Excel error was the Growth in a Time of Debt by Reinhart & Rogoff (2010)\n\nFound by graduate student Thomas Herndon and co-authors Michael Ash, and Robert Pollin."
   },
   {
     "objectID": "slides/introduction_slides.html#advantages-1",
