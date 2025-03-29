@@ -471,7 +471,7 @@
     "href": "slides/whats_next_slides.html#renv",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "Renv",
-    "text": "Renv\n\n\nMost popular packages for reproducibility, and very easy to use:\n\nOpen an R session in the folder containing the scripts\nRun renv::init() and check the folder for renv.lock\nUse renv::restore to load all packages used at runtime"
+    "text": "Renv\n\n\nMost popular packages for reproducibility, and very easy to use:\n\nCreates a snap shot of packages used (and versions)\n\nOpen an R session in the folder containing the scripts\nRun renv::init() and check the folder for renv.lock\nUse renv::restore to load all packages used at runtime"
   },
   {
     "objectID": "slides/whats_next_slides.html#renv-1",
@@ -534,7 +534,7 @@
     "href": "slides/whats_next_slides.html#nixrix-5",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "Nix/Rix",
-    "text": "Nix/Rix\n\nSteps:\n\n\nInstall nix on your computer\nrix::rix() generates a default.nix file\nBuild expressions using nix-build (in terminal) or rix::nix_build() from R\n“Drop” into the development environment using nix-shell"
+    "text": "Nix/Rix\n\nSteps:\n\n\nInstall Nix on your computer\nrix::rix() generates a default.nix file\nBuild expressions using nix-build (in terminal) or rix::nix_build() from R\n“Drop” into the development environment using nix-shell"
   },
   {
     "objectID": "slides/rendering_slides.html#how-to-render",
