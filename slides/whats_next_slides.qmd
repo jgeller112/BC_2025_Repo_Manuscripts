@@ -27,11 +27,13 @@ format:
 
 -   Most popular packages for reproducibility, and very easy to use:
 
-    -   Open an R session in the folder containing the scripts
+    -   Creates a snap shot of packages used (and versions)
 
-    -   Run `renv::init()` and check the folder for `renv.lock`
+        -   Open an R session in the folder containing the scripts
 
-    -   Use `renv::restore` to load all packages used at runtime
+        -   Run `renv::init()` and check the folder for `renv.lock`
+
+        -   Use `renv::restore` to load all packages used at runtime
 
 ## `Renv`
 
@@ -163,7 +165,7 @@ rix(date = "2025-03-10", # date or r version wanted
 
 -   Steps:
 
-1.  Install nix on your computer
+1.  Install Nix on your computer
 2.  `rix::rix()` generates a `default.nix` file
 3.  Build expressions using `nix-build` (in terminal) or `rix::nix_build()` from R
 4.  “Drop” into the development environment using `nix-shell`
