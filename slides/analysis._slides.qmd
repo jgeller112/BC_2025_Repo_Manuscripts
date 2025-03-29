@@ -13,7 +13,7 @@ format:
     fontsize: "25pt"
 ---
 
-# Code Chunks: Text + Code + Output {background-color="#FFCD00"}
+# Code  {background-color="#FFCD00"}
 
 # Topics
 
@@ -42,7 +42,7 @@ format:
 1993 + 2023
 ```
 
-## Anatomy of a Code Chunk
+## Anatomy of a code chunk
 
 ::::: columns
 ::: {.column width="50%"}
@@ -75,11 +75,9 @@ distinct_cyl = mtcars.drop_duplicates(subset=['cyl'])
 
 \*\* *not needed in a code cell in a Jupyter notebook!*
 
-## Code Chunk Options {.smaller}
+## Code chunk options {.smaller}
 
-Useful [code chunk options](https://quarto.org/docs/computations/execution-options.html):
-
-## Customize Code Execution Options {.smaller}
+Useful [code chunk options](https://quarto.org/docs/computations/execution-options.html)
 
 | Option | Description |
 |------------------------------------|------------------------------------|
@@ -114,7 +112,7 @@ execute:
 
 ## Inserting Code Chunks
 
-Option 1: Type it out
+Option 1: Source editor: Type it out
 
 . . .
 
@@ -128,7 +126,7 @@ Option 3: Shortcuts:
 
 ## Demo: echo option
 
-`echo` hides code, but shows results.
+`echo` hides/shows code and outputs results
 
 ::::: columns
 ::: {.column width="45%"}
@@ -199,7 +197,6 @@ plot(x, y)
 x = 1:10; y = 11:20
 plot(x, y)
 ```
-
 :::
 
 ::: {.column width="45%"}
@@ -213,10 +210,8 @@ plot(x, y)
 x = 1:10; y = 11:20
 plot(x, y)
 ```
-
 :::
 :::::
-
 
 ## Demo: eval option
 
@@ -225,7 +220,6 @@ plot(x, y)
 ::::: columns
 ::: {.column width="45%"}
 **Code**
-
 
 ```{{r}}
 #| label: ex-not-run
@@ -262,7 +256,6 @@ plot(x, y)
 
 
 ```
-
 
 ## Exercise
 
@@ -317,7 +310,7 @@ There are `r nrow(cars)` observations in our data.
 If using `Visual` or `Source` mode, be advised the *R* expression will only substitute the value held by the variable when the Quarto document is **rendered**. That is, the value contained within the expression only appears in the **output** file.
 :::
 
-## Reference Code Chunk Variables Inline
+## Reference code chunk variables inline
 
 **Code:**
 
@@ -446,5 +439,3 @@ library(countdown)
 countdown(minutes = 10,
           color_background = "#FFCD00")
 ```
-
-
