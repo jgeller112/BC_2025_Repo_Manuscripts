@@ -113,8 +113,9 @@ tinytex::install_tinytex()
 3.  Copy-paste results and figures/tables
 4.  Manually format your results and citations
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s3JldKoA0zw" frameborder="0" data-external="1" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/s3JldKoA0zw" frameborder="0" data-external="1" allowfullscreen>
 
+</iframe>
 
 # The Problem
 
@@ -259,18 +260,14 @@ We found that half of all published psychology papers that use null-hypothesis s
 
 ## Getting started
 
--   Approach 1: Start from scratch (now)
-
-    -   Creating a Quarto manuscript
-
-        -   RStudio: New Project \> New Directory \> Quarto Manuscript
-
 ::: callout-note
 Always start a new project folder!
 :::
 
--   Approach 2: Start with a sample template (later)
+-   Start from scratch
+    -   Creating a Quarto manuscript
 
+        -   RStudio: New Project \> New Directory \> Quarto Manuscript
 
 # Overview of a Quarto Document
 
@@ -290,7 +287,6 @@ In the new prompt, enter a title, author name, and press "Create"
 :::
 :::::
 
-
 ## Source vs. Visual Mode
 
 ::::: columns
@@ -306,7 +302,6 @@ In the new prompt, enter a title, author name, and press "Create"
 ::: footer
 Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This mode is similar to Word.
 :::
-
 
 ## Getting started
 
@@ -334,7 +329,9 @@ countdown(minutes=5)
 
 ## **Metadata & Header (YAML)**
 
--   The YAML header cotains basic metadata and rendering instructions
+-   The YAML header contains basic metadata and rendering instructions
+
+. . .
 
 ``` yaml
 ---

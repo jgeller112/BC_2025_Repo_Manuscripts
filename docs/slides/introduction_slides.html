@@ -444,7 +444,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Jason Geller, PH.D.(he/him)">
-  <meta name="dcterms.date" content="2025-03-29">
+  <meta name="dcterms.date" content="2025-03-30">
   <title>Reproducible Manuscripts in R with Quarto Workshop – Reproducible Manuscripts in R</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1850,7 +1850,7 @@ Jason Geller, PH.D.(he/him)
 </div>
 </div>
 
-  <p class="date">2025-03-29</p>
+  <p class="date">2025-03-30</p>
 </section>
 <section id="what-is-reproduciblity" class="slide level2">
 <h2>What is reproduciblity?</h2>
@@ -1944,9 +1944,10 @@ Jason Geller, PH.D.(he/him)
 <li class="fragment">Copy-paste results and figures/tables</li>
 <li class="fragment">Manually format your results and citations</li>
 </ol>
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s3JldKoA0zw" frameborder="0" data-external="1" allowfullscreen>
 </iframe>
-</section>
+</center></section>
 <section>
 <section id="the-problem" class="title-slide slide level1 center">
 <h1>The Problem</h1>
@@ -2110,15 +2111,6 @@ Jason Geller, PH.D.(he/him)
 </section>
 <section id="getting-started" class="slide level2">
 <h2>Getting started</h2>
-<ul>
-<li class="fragment"><p>Approach 1: Start from scratch (now)</p>
-<ul>
-<li class="fragment"><p>Creating a Quarto manuscript</p>
-<ul>
-<li class="fragment">RStudio: New Project &gt; New Directory &gt; Quarto Manuscript</li>
-</ul></li>
-</ul></li>
-</ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -2133,7 +2125,13 @@ Jason Geller, PH.D.(he/him)
 </div>
 </div>
 <ul>
-<li class="fragment">Approach 2: Start with a sample template (later)</li>
+<li class="fragment">Start from scratch
+<ul>
+<li class="fragment"><p>Creating a Quarto manuscript</p>
+<ul>
+<li class="fragment">RStudio: New Project &gt; New Directory &gt; Quarto Manuscript</li>
+</ul></li>
+</ul></li>
 </ul>
 </section></section>
 <section>
@@ -2191,7 +2189,7 @@ Jason Geller, PH.D.(he/him)
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_7af32857" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_f2f4c516" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2213,8 +2211,9 @@ Jason Geller, PH.D.(he/him)
 <section id="metadata-header-yaml" class="slide level2">
 <h2><strong>Metadata &amp; Header (YAML)</strong></h2>
 <ul>
-<li class="fragment">The YAML header cotains basic metadata and rendering instructions</li>
+<li class="fragment">The YAML header contains basic metadata and rendering instructions</li>
 </ul>
+<div class="fragment">
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a></a><span class="pp">---</span></span>
 <span id="cb3-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> My Reproducible Manuscript</span></span>
 <span id="cb3-3"><a></a><span class="fu">authors</span><span class="kw">:</span></span>
@@ -2233,6 +2232,7 @@ Jason Geller, PH.D.(he/him)
 </ul></li>
 <li class="fragment"><p>Set global manuscript options with key-value pairs</p></li>
 </ul>
+</div>
 </section>
 <section id="code" class="slide level2">
 <h2><strong>Code</strong></h2>
