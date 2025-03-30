@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Set the primary background (e.g., sidebar) to maroon */
+.sidebar {
+  background-color: #800000; /* Maroon */
+}
+
+/* Set the text and active item (links, etc.) to gold */
+.sidebar a,
+.sidebar .nav-link,
+.sidebar .nav-item {
+  color: #FFD700 !important; /* Gold */
+}
+
+/* Highlight active links in bold gold */
+.sidebar .nav-link.active {
+  font-weight: bold;
+  color: #FFD700 !important;
+}
+
+/* Change main body headings and links to match */
+h1, h2, h3, h4, a {
+  color: #800000; /* Maroon */
+}
+
+/* Optional: background for code blocks, etc. */
+pre, code {
+  background-color: #f9f3e9;
+  color: #800000;
+}
