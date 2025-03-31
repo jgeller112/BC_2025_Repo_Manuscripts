@@ -597,14 +597,14 @@
     "href": "slides/rendering_slides.html#sharing-work",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
     "section": "Sharing Work",
-    "text": "Sharing Work\n\nOnce you are satisfied with the Quarto document, it’s time to publish your work!\nThe publishing step is important as the documents need to be viewed under the guise of a server\nThere are multiple options for publishing with Quarto, and we’ll present two of them"
+    "text": "Sharing Work\n\nOnce you are satisfied with the Quarto document, it’s time to share your work!\nThere are a number of options"
   },
   {
-    "objectID": "slides/rendering_slides.html#publish-options",
-    "href": "slides/rendering_slides.html#publish-options",
+    "objectID": "slides/rendering_slides.html#sharing-work-1",
+    "href": "slides/rendering_slides.html#sharing-work-1",
     "title": "Reproducible Manuscripts in R with Quarto Workshop",
-    "section": "Publish Options",
-    "text": "Publish Options\n\nGitHub PagesQuarto Pub\n\n\n\nTo make your Quarto document accessible on GitHub Pages via Quarto, use the following command in your terminal:\n\nquarto publish gh-pages\n\nThis option is great if you want to share your document through a GitHub Pages website.\n\n\n\n\nAlternatively, you can publish your Quarto document on Quarto Pub via Quarto. Use the following command in your terminal:\n\nquarto publish quarto-pub\nOR:\n\nYou can find the blue Publishing icon in the following locations:\n\nThe upper right of the file editor\nThe document viewer when viewing a document\nThe embedded viewer when running a Shiny application\nThe Plots pane\n\nClick on icon"
+    "section": "Sharing Work",
+    "text": "Sharing Work\n\nShare the pdf or Word document with collaborators and incorporate changes back into the .qmd document\nTrackdown in R\n\nConverts document to md and posts on Google Docs/Googledrive\n\nRender to website and use hypothes.is"
   },
   {
     "objectID": "slides/rendering.html",
@@ -647,7 +647,7 @@
     "href": "index.html",
     "title": "BC 2025: Reproducible Manuscripts in R Workshop",
     "section": "",
-    "text": "Welcome!\n\n\n\n    \n\nOpen Science practices are becoming central to the way research is conducted. In this workshop, you will learn to set up a reproducible workflow to create a publication-ready manuscript that combines data, R or Python code, text, and references.\nWe will use the Quarto publishing system in conjunction with R or Python to create a publication-ready manuscript that combines data, code, text, and references. More specifically, you will learn how to:\n\nCreate a reproducible project (folder) structure\nUse Markdown syntax effectively for writing text\nRun analyses in code chunks or cells\nManage references using Zotero and Better BibTex for Zotero\nRender your Quarto manuscript to docx, HTML, and pdf files\nShare your project to a website\n\nThis workflow reduces the amount of human error, improves computational reproducibility and makes updating your scientific manuscript more efficient.\nBy the end of the workshop, you will be sufficiently familiar with the tools and components behind a reproducible manunscript, so you can implement the workflow in your own research projects.\nOur workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our GitHub repository.",
+    "text": "Welcome!\n\n\n\n    \n\nOpen Science practices are becoming central to the way research is conducted. In this workshop, you will learn to set up a reproducible workflow to create a publication-ready manuscript that combines data, R or Python code, text, and references.\nWe will use the Quarto publishing system in conjunction with R or Python to create a publication-ready manuscript that combines data, code, text, and references. More specifically, you will learn how to:\n\nCreate a reproducible project (folder) structure\nUse Markdown syntax effectively for writing text\nRun analyses in code chunks or cells\nManage references using Zotero and Better BibTex for Zotero\nRender your Quarto manuscript to docx, HTML, and pdf files\nShare your project\n\nThis workflow reduces the amount of human error, improves computational reproducibility and makes updating your scientific manuscript more efficient.\nBy the end of the workshop, you will be sufficiently familiar with the tools and components behind a reproducible manunscript, so you can implement the workflow in your own research projects.\nOur workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our GitHub repository.",
     "crumbs": [
       "Workshop",
       "Home"
