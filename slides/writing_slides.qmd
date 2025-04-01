@@ -80,17 +80,6 @@ to creating any kind of document
 
 ![Writing an issue using markdown on [GitHub](https://github.com)](assets/quarto-images/example-markdown-issue-github.png){fig-alt="Demo using markdown to create an issue on the website GitHub.com"}
 
-## Markdown quick reference in RStudio
-
-![Accessing the "Markdown Quick Reference" Guide inside of RStudio](assets/quarto-images/qmd-annotations/markdown-cheatsheet.png){height="400" fig-alt="Opening the built-in Markdown quick reference sheet inside of RStudio by going to the help menu and selecting 'Markdown Quick Reference'."}
-
-## Learning Markdown
-
-You can familiarize yourself with Markdown in a couple of minutes using the following link: <https://www.markdownguide.org/cheat-sheet/>.
-
-. . .
-
-You can also use the **Visual Editor** in [VS Code](https://quarto.org/docs/visual-editor/vscode/) or [RStudio](https://quarto.org/docs/visual-editor/), to see Markdown syntax previewed in it's final format as you write. The Visual Editor also has some common Word-like shortcuts, such as `Ctrl + B` to make text bold.
 
 ## Markdown Sneak Peek: Text Formatting
 
@@ -161,10 +150,16 @@ You can also use the **Visual Editor** in [VS Code](https://quarto.org/docs/visu
 
 ## Markdown sneak peek: Math
 
+-   Anything inside dollar signs `$` is treated as "inline" maths
+-   `$$` is a standalone equation
+-   Whitespace matters: `$x$` is an equation, `$x $` is not
+-   Equations follow "LaTeX" rules
+
+## Markdown sneak peek: Math
+
 ::::: columns
 ::: {.column width="45%"}
 **Code**
-
 ``` md
 Inline math: 
 $a^2 + b^2 = c^2$
@@ -360,8 +355,6 @@ Or embed an image: <br> ![penguins](https://allisonhorst.github.io/palmerpenguin
 Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
 :::
 
-## Callout blocks
-
 ::: callout-warning
 ## Warning
 
@@ -373,6 +366,8 @@ Callouts provide a simple way to attract attention, for example, to this warning
 
 Danger, callouts will really improve your writing.
 :::
+
+## Callout blocks
 
 ::: callout-tip
 ## Tip with caption
@@ -393,6 +388,47 @@ Here is something under construction
 
 This is an example of a 'folded' caution callout that can be expanded by the user. You can use \`collapse="true"\` to collapse it by default or \`collapse="false"\` to make a collapsible callout that is expanded by default.
 :::
+
+## Tabsets
+
+Split up and flip between sections of a page, alternative to just two columns
+
+::: panel-tabset
+## Element 1
+
+```{r}
+#| echo: true
+
+library(ggplot2)
+fig = ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess", se = FALSE)
+
+```
+
+## Element 2
+
+```{r}
+#| echo: true
+#| fig-align: "center"
+
+fig
+```
+:::
+
+
+## Markdown quick reference in RStudio
+
+![Accessing the "Markdown Quick Reference" Guide inside of RStudio](assets/quarto-images/qmd-annotations/markdown-cheatsheet.png){height="400" fig-alt="Opening the built-in Markdown quick reference sheet inside of RStudio by going to the help menu and selecting 'Markdown Quick Reference'."}
+
+## Learning Markdown
+
+You can familiarize yourself with Markdown in a couple of minutes using the following link: <https://www.markdownguide.org/cheat-sheet/>.
+
+. . .
+
+You can also use the **Visual Editor** in [VS Code](https://quarto.org/docs/visual-editor/vscode/) or [RStudio](https://quarto.org/docs/visual-editor/), to see Markdown syntax previewed in it's final format as you write. The Visual Editor also has some common Word-like shortcuts, such as `Ctrl + B` to make text bold.
+
 
 ## Markdown exercise
 
