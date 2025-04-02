@@ -13,7 +13,7 @@ format:
     fontsize: "25pt"
 ---
 
-# Code  {background-color="#FFCD00"}
+# Code {background-color="#FFCD00"}
 
 # Topics
 
@@ -77,20 +77,7 @@ distinct_cyl = mtcars.drop_duplicates(subset=['cyl'])
 
 ## Code chunk options {.smaller}
 
-Useful [code chunk options](https://quarto.org/docs/computations/execution-options.html)
-
-| Option | Description |
-|------------------------------------|------------------------------------|
-| `eval` | `Evaluate the code chunk.` |
-| `echo` | `Include the source code in output` |
-| `output` | \`Include code output results (`true`, `false`, or `asis`)\` |
-| `warning` | `Include warnings in the output.`\` |
-| `error` | `Include errors in the output (continues execution if error present).` |
-| `include` | `Catch all for preventing any output (code or results) from being included.` |
-| `label` | `Please make sure to label your code chunks! It helps with debugging.` |
-| `fig-cap` | `caption your figure` |
-| `fig-width` | `width of the figure` |
-| `fig-height` | `height of the figure` |
+![](images/code_chunks.jpeg){fig-align="center"}
 
 ## Code Chunk Options
 
@@ -126,7 +113,7 @@ Option 3: Shortcuts:
 
 ## Demo: echo option
 
-`echo` hides/shows code and outputs results
+`echo` hides/shows code
 
 ::::: columns
 ::: {.column width="45%"}
@@ -185,7 +172,7 @@ plot(x, y)
 
 ## Demo: eval option
 
-`eval` shows code, but does not create results.
+`eval` creates results
 
 ::::: columns
 ::: {.column width="45%"}
